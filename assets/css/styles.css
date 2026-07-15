@@ -141,7 +141,6 @@ a:hover { text-decoration: underline; }
 }
 .intro p {
   margin: 0;
-  max-width: 820px;
   color: var(--text-muted);
   line-height: 1.6;
   font-size: 15.5px;
@@ -235,11 +234,14 @@ a:hover { text-decoration: underline; }
 .layout {
   display: grid;
   grid-template-columns: minmax(340px, 42%) 1fr;
-  height: calc(100vh - var(--header-h));
+  height: 70vh;
+  max-height: calc(100vh - var(--header-h));
+  min-height: 460px;
   max-width: 1280px;
-  margin: 0 auto;
-  border-left: 1px solid var(--border);
-  border-right: 1px solid var(--border);
+  margin: 0 auto 56px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
 }
 
 /* Listenspalte */
@@ -330,25 +332,40 @@ a:hover { text-decoration: underline; }
 /* ============================= Kontaktblock ============================= */
 .contact-block { background: var(--accent-dark); color: #eef4f3; }
 .contact-inner {
-  max-width: 1280px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 40px 24px;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 40px;
+  align-items: start;
 }
-.contact-inner h2 { margin: 0 0 6px; font-size: 24px; }
+.contact-col { min-width: 0; }
+.contact-inner h2 { margin: 0 0 8px; font-size: 22px; }
 .contact-inner h2 a { color: #fff; }
 .contact-role { margin: 2px 0; font-size: 15px; color: #cfe0de; }
-.contact-address { margin: 16px 0; font-size: 15px; line-height: 1.6; }
+.contact-address { margin: 0 0 16px; font-size: 15px; line-height: 1.6; }
 .contact-address a,
 .contact-details a { color: #fff; text-decoration: underline; }
-.contact-details { margin: 8px 0 0; font-size: 15px; line-height: 1.7; }
+.contact-details { margin: 0; font-size: 15px; line-height: 1.7; }
+
+@media (max-width: 560px) {
+  .contact-inner { grid-template-columns: 1fr; gap: 20px; text-align: center; }
+}
 
 /* ============================= Embed-Modus ============================= */
 body.embed .site-header,
 body.embed .intro,
 body.embed .contact-block { display: none; }
 body.embed .filter-bar { top: 0; }
-body.embed .layout { height: 100vh; border: none; }
+body.embed .layout {
+  height: 100vh;
+  max-height: none;
+  min-height: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
 
 /* ============================= Responsive ============================= */
 @media (max-width: 900px) {
