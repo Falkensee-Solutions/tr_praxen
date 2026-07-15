@@ -349,10 +349,6 @@ a:hover { text-decoration: underline; }
 .contact-details a { color: #fff; text-decoration: underline; }
 .contact-details { margin: 0; font-size: 15px; line-height: 1.7; }
 
-@media (max-width: 560px) {
-  .contact-inner { grid-template-columns: 1fr; gap: 20px; text-align: center; }
-}
-
 /* ============================= Embed-Modus ============================= */
 body.embed .site-header,
 body.embed .intro,
@@ -369,7 +365,10 @@ body.embed .layout {
 
 /* ============================= Responsive ============================= */
 @media (max-width: 900px) {
-  :root { --header-h: 72px; }
+  :root { --header-h: 60px; }
+
+  .site-logo img { height: 40px; }
+  .site-header-inner { padding: 0 16px; }
 
   .menu-toggle { display: flex; }
   .site-nav {
@@ -397,22 +396,54 @@ body.embed .layout {
     padding: 0 0 0 16px;
   }
 
+  /* Intro kompakt, scrollt weg */
+  .intro-inner { padding: 14px 16px 12px; }
+  .intro h1 { font-size: 20px; margin-bottom: 4px; }
+  .intro p { font-size: 13.5px; line-height: 1.5; }
+
+  /* Filterleiste: eine Zeile, horizontal scrollbar, spart Höhe */
+  .filter-bar-inner {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px 16px;
+    gap: 8px;
+    scrollbar-width: none;
+  }
+  .filter-bar-inner::-webkit-scrollbar { display: none; }
+  .filter-bar-inner > * { flex: 0 0 auto; }
+  .search-field { flex: 0 0 210px; min-width: 210px; }
+  .chip-group { flex-wrap: nowrap; }
+  .reset-btn { white-space: nowrap; }
+
+  /* Interaktiver Bereich füllt den Bildschirm */
   .layout {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     position: relative;
+    height: calc(100dvh - var(--header-h) - 62px);
+    min-height: 340px;
+    max-height: none;
+    margin: 0 0 0;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
   }
-  .list-pane { grid-row: 1; }
+  .list-pane { grid-row: 1; border-right: none; }
   .map-pane { grid-row: 1; }
 
-  /* Mobile: eine Ansicht zurzeit */
+  /* Mobile: eine Ansicht zurzeit (Karte ist Standard, per JS gesetzt) */
   body:not(.show-map) .map-pane { display: none; }
   body.show-map .list-pane { display: none; }
-  .mobile-view-toggle { display: block; }
+
+  .mobile-view-toggle { display: block; bottom: 16px; }
+
+  /* Kontaktblock kompakter */
+  .contact-inner { padding: 28px 20px; gap: 20px 32px; }
 }
 
 @media (max-width: 560px) {
-  .intro h1 { font-size: 23px; }
-  .filter-bar-inner { padding: 12px 16px; }
-  .site-header-inner { padding: 0 16px; }
+  .contact-inner { grid-template-columns: 1fr; gap: 18px; text-align: center; }
 }
+

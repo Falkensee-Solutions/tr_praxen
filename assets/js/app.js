@@ -311,9 +311,30 @@
 
   // ------------------------- Mobile: Ansicht umschalten -------------------------
   const viewToggle = document.getElementById("viewToggle");
-  viewToggle.addEventListener("click", () => {
-    const showMap = document.body.classList.toggle("show-map");
+
+  const mobileQuery = window.matchMedia("(max-width: 900px)");
+
+  function syncToggleLabel() {
+    const showMap = document.body.classList.contains("show-map");
     viewToggle.textContent = showMap ? "Liste anzeigen" : "Karte anzeigen";
+  }
+
+  // Auf dem Handy zuerst die Karte zeigen (kein Scrollen durch die Liste nötig)
+  function applyMobileDefault() {
+    if (mobileQuery.matches && !document.body.dataset.userToggled) {
+      document.body.classList.add("show-map");
+      syncToggleLabel();
+      setTimeout(() => {
+        map.invalidateSize();
+        fitToVisible();
+      }, 60);
+    }
+  }
+
+  viewToggle.addEventListener("click", () => {
+    document.body.dataset.userToggled = "1";
+    const showMap = document.body.classList.toggle("show-map");
+    syncToggleLabel();
     if (showMap) {
       setTimeout(() => {
         map.invalidateSize();
@@ -321,6 +342,15 @@
       }, 60);
     }
   });
+
+  if (mobileQuery.addEventListener) {
+    mobileQuery.addEventListener("change", () => {
+      setTimeout(() => {
+        map.invalidateSize();
+        fitToVisible();
+      }, 60);
+    });
+  }
 
   // ------------------------- Header: Mobile-Menü -------------------------
   const menuToggle = document.getElementById("menuToggle");
@@ -343,6 +373,7 @@
       buildMarkers();
       buildFilterUI();
       applyFilters();
+      applyMobileDefault();
     })
     .catch((err) => {
       countEl.textContent = "Daten konnten nicht geladen werden.";
