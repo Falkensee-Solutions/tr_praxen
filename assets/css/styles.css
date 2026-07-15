@@ -427,7 +427,7 @@ body.embed .layout {
   }
   .filter-bar-inner::-webkit-scrollbar { display: none; }
   .filter-bar-inner > * { flex: 0 0 auto; }
-  .search-field { flex: 0 0 210px; min-width: 210px; }
+  .search-field { flex: 0 0 33.333vw; width: 33.333vw; min-width: 33.333vw; }
   .chip-group { flex-wrap: nowrap; }
   .reset-btn { white-space: nowrap; }
 
