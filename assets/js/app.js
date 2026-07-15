@@ -352,6 +352,33 @@
     });
   }
 
+  // ------------------------- Filterleiste: Scroll-Hinweis (mobil) -------------------------
+  const filterBar = document.getElementById("filterBar");
+  const filterInner = document.querySelector(".filter-bar-inner");
+
+  function updateFilterFade() {
+    if (!filterBar || !filterInner) return;
+    const scrollable = filterInner.scrollWidth > filterInner.clientWidth + 2;
+    const atEnd =
+      filterInner.scrollLeft + filterInner.clientWidth >= filterInner.scrollWidth - 2;
+    filterBar.classList.toggle("scroll-end", !scrollable || atEnd);
+  }
+
+  // Einmaliger dezenter "Anstupser", der zeigt: hier kann man scrollen
+  function hintFilterScroll() {
+    if (!filterInner || !mobileQuery.matches) return;
+    if (filterInner.scrollWidth <= filterInner.clientWidth + 8) return;
+    setTimeout(() => {
+      filterInner.scrollTo({ left: 84, behavior: "smooth" });
+      setTimeout(() => filterInner.scrollTo({ left: 0, behavior: "smooth" }), 700);
+    }, 600);
+  }
+
+  if (filterInner) {
+    filterInner.addEventListener("scroll", updateFilterFade, { passive: true });
+    window.addEventListener("resize", updateFilterFade);
+  }
+
   // ------------------------- Header: Mobile-Menü -------------------------
   const menuToggle = document.getElementById("menuToggle");
   const siteNav = document.getElementById("siteNav");
@@ -374,6 +401,8 @@
       buildFilterUI();
       applyFilters();
       applyMobileDefault();
+      updateFilterFade();
+      hintFilterScroll();
     })
     .catch((err) => {
       countEl.textContent = "Daten konnten nicht geladen werden.";

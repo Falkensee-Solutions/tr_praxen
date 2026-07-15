@@ -402,6 +402,21 @@ body.embed .layout {
   .intro p { font-size: 13.5px; line-height: 1.5; }
 
   /* Filterleiste: eine Zeile, horizontal scrollbar, spart Höhe */
+  .filter-bar { position: sticky; }
+  .filter-bar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 48px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 70%);
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity .25s ease;
+    z-index: 2;
+  }
+  .filter-bar.scroll-end::after { opacity: 0; }
   .filter-bar-inner {
     flex-wrap: nowrap;
     overflow-x: auto;
