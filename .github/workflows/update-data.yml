@@ -1,0 +1,46 @@
+name: Praxen-Daten aktualisieren
+
+on:
+  schedule:
+    # Täglich um 02:30 UTC (~03:30/04:30 Uhr deutscher Zeit)
+    - cron: "30 2 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-data.mjs"
+      - "tr_praxen.csv"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Daten neu erzeugen
+        run: node scripts/build-data.mjs
+
+      - name: Änderungen committen (falls vorhanden)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/practices.json)" ]; then
+            git add data/practices.json
+            git commit -m "chore: Praxen-Daten automatisch aktualisiert"
+            git push
+          else
+            echo "Keine Änderungen an den Daten."
+          fi

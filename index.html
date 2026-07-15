@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Therapiepraxen-Karte &ndash; M.Sc. Esad Cebi</title>
+  <meta name="description" content="Interaktive Karte türkischsprachiger bzw. muttersprachlicher Psychotherapiepraxen in Deutschland. Filtern nach Zielgruppe, Finanzierung und Region." />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ======================= Header (Nachbau praxis-cebi.de) ======================= -->
+  <header id="site-header" class="site-header" role="banner">
+    <div class="site-header-inner">
+      <a href="https://www.praxis-cebi.de/" class="site-logo" rel="home">
+        <img
+          src="https://www.praxis-cebi.de/wp-content/uploads/2022/10/cropped-Screenshot-2022-10-03-at-16.12.14.png"
+          alt="M.Sc Esad Cebi" width="180" height="75" />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Menü" aria-expanded="false">
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="Hauptmenü">
+        <ul class="main-menu">
+          <li><a href="https://www.praxis-cebi.de/">Home</a></li>
+          <li><a href="https://www.praxis-cebi.de/?page_id=23">Über mich</a></li>
+          <li class="has-children">
+            <a href="https://www.praxis-cebi.de/?page_id=25">Behandlungsangebot
+              <span class="nav-arrow" aria-hidden="true">▾</span></a>
+            <ul class="sub-menu">
+              <li><a href="https://www.praxis-cebi.de/?page_id=256">Einzeltherapie</a></li>
+              <li><a href="https://www.praxis-cebi.de/?page_id=251">Gruppentherapie</a></li>
+              <li><a href="https://www.praxis-cebi.de/?page_id=259">Paartherapie</a></li>
+              <li><a href="https://www.praxis-cebi.de/?page_id=166">Kosten</a></li>
+              <li><a href="https://www.praxis-cebi.de/?page_id=552">Türkçe</a></li>
+            </ul>
+          </li>
+          <li><a href="https://www.praxis-cebi.de/?page_id=21">Kontakt</a></li>
+          <li><a href="https://www.praxis-cebi.de/?page_id=170">Datenschutz</a></li>
+          <li><a href="https://www.praxis-cebi.de/?page_id=168">Impressum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================= Intro ======================= -->
+  <section class="intro" id="intro">
+    <div class="intro-inner">
+      <h1>Therapiepraxen in Ihrer Nähe</h1>
+      <p>
+        Auf dieser Karte finden Sie muttersprachliche Psychotherapiepraxen in Deutschland.
+        Nutzen Sie die Suche und die Filter, um Praxen nach Region, Zielgruppe und
+        Finanzierung zu finden. Zoomen Sie in die Karte hinein oder klicken Sie auf einen
+        Eintrag in der Liste, um Details und Kontaktmöglichkeiten zu sehen.
+      </p>
+    </div>
+  </section>
+
+  <!-- ======================= Filterleiste ======================= -->
+  <div class="filter-bar" id="filterBar">
+    <div class="filter-bar-inner">
+      <div class="search-field">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="search-icon">
+          <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/>
+        </svg>
+        <input type="search" id="searchInput" placeholder="Name, Ort oder PLZ suchen…"
+          autocomplete="off" aria-label="Praxen durchsuchen" />
+      </div>
+
+      <select id="filterBundesland" class="filter-select" aria-label="Bundesland filtern">
+        <option value="">Alle Bundesländer</option>
+      </select>
+
+      <div class="chip-group" id="chipZielgruppe" role="group" aria-label="Zielgruppe"></div>
+      <div class="chip-group" id="chipFinanzierung" role="group" aria-label="Finanzierung"></div>
+
+      <button id="resetFilters" class="reset-btn" type="button" hidden>Filter zurücksetzen</button>
+    </div>
+  </div>
+
+  <!-- ======================= Hauptbereich ======================= -->
+  <main class="layout" id="layout">
+    <section class="list-pane" id="listPane" aria-label="Liste der Praxen">
+      <div class="list-head">
+        <span id="resultCount" class="result-count">Praxen werden geladen…</span>
+      </div>
+      <ul class="practice-list" id="practiceList"></ul>
+      <p class="list-empty" id="listEmpty" hidden>Keine Praxen entsprechen Ihren Filtern.</p>
+    </section>
+
+    <section class="map-pane" aria-label="Karte">
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <button class="mobile-view-toggle" id="viewToggle" type="button" hidden>Karte anzeigen</button>
+
+  <!-- ======================= Kontaktblock (statt Footer) ======================= -->
+  <section class="contact-block" id="contactBlock">
+    <div class="contact-inner">
+      <h2><a href="https://www.praxis-cebi.de/?page_id=23">M. Sc. Esad Cebi</a></h2>
+      <p class="contact-role">Psychologischer Psychotherapeut</p>
+      <p class="contact-role">Verhaltenstherapie</p>
+      <p class="contact-role">Praxis für Psychotherapie</p>
+      <p class="contact-address">
+        Von-Brentano-Str. 14<br />
+        63073 Offenbach am Main<br />
+        <a href="https://goo.gl/maps/BW97UGwjE3dExjpcA" target="_blank" rel="noopener">Karte anzeigen</a>
+      </p>
+      <p class="contact-details">
+        <strong>Kontakt</strong><br />
+        <a href="tel:+4915234752971">01523&nbsp;4752971</a><br />
+        <a href="mailto:therapiepraxis.cebi@gmail.com">therapiepraxis.cebi@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

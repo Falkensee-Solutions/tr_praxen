@@ -1,0 +1,5125 @@
+{
+  "updatedAt": "2026-07-15T06:57:11.284Z",
+  "count": 283,
+  "practices": [
+    {
+      "name": "AAI Aachen-Köln",
+      "strasse": "Konrad-Adenauer-Ufer 33",
+      "plz": "50668",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.aai-aachen-koeln.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.9473069,
+      "lng": 6.9636404
+    },
+    {
+      "name": "AAI Düsseldorf",
+      "strasse": "Degerstraße 10",
+      "plz": "40235",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.aaid.org",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.2314983,
+      "lng": 6.8110904
+    },
+    {
+      "name": "ABZ OWL Bielefeld",
+      "strasse": "Kesselbrink 3",
+      "plz": "33602",
+      "ort": "Bielefeld",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.psychotherapieausbildung-bielefeld.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 52.0240727,
+      "lng": 8.5368148
+    },
+    {
+      "name": "Adem Kürklü",
+      "strasse": "Konradstraße 16",
+      "plz": "80801",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "0170 2226669",
+      "email": "",
+      "website": "https://www.psychotherapie-eda.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.155602,
+      "lng": 11.578848
+    },
+    {
+      "name": "AFKV Gelsenkirchen",
+      "strasse": "Romanusstr. 1",
+      "plz": "45894",
+      "ort": "Gelsenkirchen",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.afkv.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.5758205,
+      "lng": 7.0487793
+    },
+    {
+      "name": "Ahmet Kaya",
+      "strasse": "Am Weinberg 12",
+      "plz": "35037",
+      "ort": "Marburg",
+      "bundesland": "Hessen",
+      "telefon": "06421 6208250",
+      "email": "",
+      "website": "https://www.deissler.org",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.8149491,
+      "lng": 8.7648654
+    },
+    {
+      "name": "Akin Kongur",
+      "strasse": "Kaiserstraße 33",
+      "plz": "63065",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "0176 85059657",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1024342,
+      "lng": 8.7598093
+    },
+    {
+      "name": "Ali Koc",
+      "strasse": "Grüneburgweg 8",
+      "plz": "60322",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 84777027",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.1211012,
+      "lng": 8.6745259
+    },
+    {
+      "name": "APP Köln",
+      "strasse": "Hauptstraße 305",
+      "plz": "51143",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.app-koeln.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.880266,
+      "lng": 7.054695
+    },
+    {
+      "name": "APV Münster",
+      "strasse": "Georgskommende 7",
+      "plz": "48143",
+      "ort": "Münster",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.apv-muenster.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.95978,
+      "lng": 7.61863
+    },
+    {
+      "name": "Aslihan Lendjel",
+      "strasse": "Justus-von-Liebig-Str. 27a",
+      "plz": "63128",
+      "ort": "Dietzenbach",
+      "bundesland": "Hessen",
+      "telefon": "0162 8573557",
+      "email": "info@intuitief.eu",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.001912,
+      "lng": 8.795013
+    },
+    {
+      "name": "AVT Köln",
+      "strasse": "Venloer Str. 47-53",
+      "plz": "50672",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.avt-koeln.org",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.9425652,
+      "lng": 6.9345778
+    },
+    {
+      "name": "AWKV gGmbH Kassel",
+      "strasse": "Friedrich-Ebert-Straße 110",
+      "plz": "34119",
+      "ort": "Kassel",
+      "bundesland": "Hessen",
+      "telefon": "0561 9201910",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.3162827,
+      "lng": 9.469835
+    },
+    {
+      "name": "B. Sc. Gülsüm Davarci",
+      "strasse": "Achenbachstraße 20",
+      "plz": "40237",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0211 96041450",
+      "email": "",
+      "website": "https://psychotherapie-duesseldorf-praxis.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.2325465,
+      "lng": 6.8066277
+    },
+    {
+      "name": "BIPP Bielefeld",
+      "strasse": "Morgenbreede 2-4",
+      "plz": "33615",
+      "ort": "Bielefeld",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.bielefelder-ipp.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 52.0338446,
+      "lng": 8.4998853
+    },
+    {
+      "name": "Bülent Midyat",
+      "strasse": "Im Trutz Frankfurt 51",
+      "plz": "60322",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0175 4147149",
+      "email": "",
+      "website": "www.psychotherapeutische-praxismidyat.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1208374,
+      "lng": 8.6732864
+    },
+    {
+      "name": "Burak Yazman",
+      "strasse": "Saarstraße 5",
+      "plz": "80797",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "+49 157 56602265",
+      "email": "",
+      "website": "https://yazman.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.1645098,
+      "lng": 11.5615499
+    },
+    {
+      "name": "Dilan Cetin Sözen",
+      "strasse": "Am Justizzentrum 7",
+      "plz": "50939",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.praxis-ds.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9216305,
+      "lng": 6.9366922
+    },
+    {
+      "name": "Dilan Cinar",
+      "strasse": "Glauburgstr. 95",
+      "plz": "60318",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "",
+      "email": "praxis@psychotherapie-cinar.de",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1259479,
+      "lng": 8.6825886
+    },
+    {
+      "name": "Dipl. Psych. Özlem Deutsch",
+      "strasse": "Schulstraße 1",
+      "plz": "64283",
+      "ort": "Darmstadt",
+      "bundesland": "Hessen",
+      "telefon": "06151 5908612",
+      "email": "",
+      "website": "www.psychotherapie-darmstadt.net",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.8704851,
+      "lng": 8.6548917
+    },
+    {
+      "name": "Dipl. Psychologin Mine Kutlu",
+      "strasse": "Berliner Allee 23",
+      "plz": "40212",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0178 3048692",
+      "email": "",
+      "website": "https://mine-kutlu.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.223519,
+      "lng": 6.7824316
+    },
+    {
+      "name": "Dipl.-Psych. Abuzer Dogan",
+      "strasse": "Hausertorstraße 41",
+      "plz": "35578",
+      "ort": "Wetzlar",
+      "bundesland": "Hessen",
+      "telefon": "06441 8707679",
+      "email": "praxis-dogan@t-online.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.5580319,
+      "lng": 8.5016754
+    },
+    {
+      "name": "Dipl.-Psych. Asu Jung",
+      "strasse": "Luegallee 108",
+      "plz": "40545",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0211 5638632",
+      "email": "",
+      "website": "https://www.st-augustinus-kliniken.de/neurocentrum",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.2317165,
+      "lng": 6.7505469
+    },
+    {
+      "name": "Dipl.-Psych. Aygül Mete",
+      "strasse": "Grüneburgweg 3",
+      "plz": "60322",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 59790958",
+      "email": "dp.a.mete@gmail.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1207581,
+      "lng": 8.675298
+    },
+    {
+      "name": "Dipl.-Psych. Can Kulens",
+      "strasse": "Am Marktplatz 5",
+      "plz": "65779",
+      "ort": "Kelkheim",
+      "bundesland": "Hessen",
+      "telefon": "06195 675250",
+      "email": "info-praxis@kulens.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1346022,
+      "lng": 8.4536546
+    },
+    {
+      "name": "Dipl.-Psych. Dicle Özerden",
+      "strasse": "Marktplatz 4",
+      "plz": "63065",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 26012330, 0173 3547482",
+      "email": "doezerden@gmail.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1042358,
+      "lng": 8.7641428
+    },
+    {
+      "name": "Dipl.-Psych. Dipl.-Päd. Sevgi Bernius",
+      "strasse": "Große Spillingsgasse 5",
+      "plz": "60385",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 37408144, 0162 4109332",
+      "email": "info@praxis-bernius.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1305871,
+      "lng": 8.7109929
+    },
+    {
+      "name": "Dipl.-Psych. Firdes Salur",
+      "strasse": "Hospitalstraße 30",
+      "plz": "65929",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 74737561",
+      "email": "praxis-salur@web.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1081052,
+      "lng": 8.5486668
+    },
+    {
+      "name": "Dipl.-Psych. Güldane Atik-Yildizgördü",
+      "strasse": "Kaiserstraße 75",
+      "plz": "63065",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 26910513",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.106212,
+      "lng": 8.7585543
+    },
+    {
+      "name": "Dipl.-Psych. Kadriye Saracoglu",
+      "strasse": "Kronberger Str. 18",
+      "plz": "61440",
+      "ort": "Oberursel",
+      "bundesland": "Hessen",
+      "telefon": "0159 01169124",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.199112,
+      "lng": 8.573682
+    },
+    {
+      "name": "Dipl.-Psych. Kamer Bargan",
+      "strasse": "Gluckstraße 27 H",
+      "plz": "60318",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0151 10280782",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1273864,
+      "lng": 8.6876152
+    },
+    {
+      "name": "Dipl.-Psych. Meral Balduk",
+      "strasse": "Im Trutz Frankfurt 51",
+      "plz": "60322",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 71035018",
+      "email": "m.balduk@web.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1208374,
+      "lng": 8.6732864
+    },
+    {
+      "name": "Dipl.-Psych. Nezahet Civan (F)",
+      "strasse": "Gartenstraße 6",
+      "plz": "60594",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0176 41867622",
+      "email": "nezahat.civan@gmx.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1046125,
+      "lng": 8.6821479
+    },
+    {
+      "name": "Dipl.-Psych. Nezahet Civan (O)",
+      "strasse": "Marktplatz 4",
+      "plz": "63065",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "0176 41867622",
+      "email": "nezahat.civan@gmx.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1042358,
+      "lng": 8.7641428
+    },
+    {
+      "name": "Dipl.-Psych. Sema Akpolat",
+      "strasse": "Hohenzollernring 57",
+      "plz": "50672",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 89993104",
+      "email": "",
+      "website": "www.fachzentrum-psychotherapie.de/psychotherapie-koeln/sema-akpolat",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9401957,
+      "lng": 6.939646
+    },
+    {
+      "name": "Dipl.-Psych. Sener Arslan (Eschersh.)",
+      "strasse": "Altheimstraße 20",
+      "plz": "60431",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 34707289",
+      "email": "mail@pt-praxis-arslan.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1565968,
+      "lng": 8.6562997
+    },
+    {
+      "name": "Dipl.-Psych. Sümeyye Durmaz",
+      "strasse": "Frankfurter Str. 19",
+      "plz": "63303",
+      "ort": "Dreieich",
+      "bundesland": "Hessen",
+      "telefon": "06103 9881977",
+      "email": "praxis@psychotherapie-durmaz.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0207271,
+      "lng": 8.6958139
+    },
+    {
+      "name": "Dipl.-Psych. Suna Güven",
+      "strasse": "Hohenstaufenring 57 a",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 16843468",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9339675,
+      "lng": 6.9390637
+    },
+    {
+      "name": "Dipl.-Psych. Tülin Yavuz",
+      "strasse": "Kettenhofweg 94",
+      "plz": "60325",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0172 7923189",
+      "email": "yavuzth@yahoo.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.116452,
+      "lng": 8.6580101
+    },
+    {
+      "name": "Dipl.-Psych. Veli Sanli",
+      "strasse": "Bahnhofstraße 10",
+      "plz": "64385",
+      "ort": "Reichelsheim",
+      "bundesland": "Hessen",
+      "telefon": "06164 6428367",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.7114949,
+      "lng": 8.8415031
+    },
+    {
+      "name": "Dipl.-Psych. Zeynep Sezer-Polat",
+      "strasse": "Gluckstraße 10",
+      "plz": "63452",
+      "ort": "Hanau",
+      "bundesland": "Hessen",
+      "telefon": "06181 6104941",
+      "email": "praxis_sezer-polat@outlook.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1413127,
+      "lng": 8.8987925
+    },
+    {
+      "name": "Diplom-Psychologin Canan Albayrak",
+      "strasse": "Horionplatz 6",
+      "plz": "40213",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0157 83052307",
+      "email": "info@cananalbayrak.de",
+      "website": "adhs-diagnostik-erwachsenenalter.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.2198078,
+      "lng": 6.7687905
+    },
+    {
+      "name": "Dr. Birsen Kahraman",
+      "strasse": "Waltherstraße 23",
+      "plz": "80337",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "089 85631115",
+      "email": "",
+      "website": "https://www.vfkv.de/personen/dr-birsen-kahraman/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.128767,
+      "lng": 11.560077
+    },
+    {
+      "name": "Dr. Deniz Lüdmann",
+      "strasse": "Frankenstr. 276",
+      "plz": "45134",
+      "ort": "Essen",
+      "bundesland": "NRW",
+      "telefon": "0163 7641697",
+      "email": "deniz.luedmann@psychotherapie-luedmann.de",
+      "website": "https://www.psychotherapie-luedmann.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.4205989,
+      "lng": 7.0249407
+    },
+    {
+      "name": "Dr. Dilek Sonntag",
+      "strasse": "Mandlstraße 14",
+      "plz": "80802",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "089 45471676",
+      "email": "",
+      "website": "https://www.dr-sonntag.com/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.158288,
+      "lng": 11.590993
+    },
+    {
+      "name": "Dr. Dipl.-Psych. Niyal Cetin",
+      "strasse": "Hengebachstr. 87",
+      "plz": "52396",
+      "ort": "Heimbach",
+      "bundesland": "NRW",
+      "telefon": "0178 6175200",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.6333346,
+      "lng": 6.4813947
+    },
+    {
+      "name": "Dr. Elif Duygu Cindik-Herbrüggen",
+      "strasse": "Hanns-Schwindt-Straße 17",
+      "plz": "81829",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "",
+      "email": "",
+      "website": "https://www.npzr.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.135049,
+      "lng": 11.687672
+    },
+    {
+      "name": "Dr. Ergin Aydar",
+      "strasse": "Sonnenberger Str. 5",
+      "plz": "65193",
+      "ort": "Wiesbaden",
+      "bundesland": "Hessen",
+      "telefon": "0611 4455380",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0855668,
+      "lng": 8.2547193
+    },
+    {
+      "name": "Dr. Ilhami Atabay",
+      "strasse": "Asgardstraße 26",
+      "plz": "81925",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "",
+      "email": "",
+      "website": "https://www.dr-atabay.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.155827,
+      "lng": 11.618976
+    },
+    {
+      "name": "Dr. Leyla Duman",
+      "strasse": "Trappentreustr. 42",
+      "plz": "80339",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "0152 29517550",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.1346592,
+      "lng": 11.5336106
+    },
+    {
+      "name": "Dr. med. Imam Baris",
+      "strasse": "Berliner Platz 19",
+      "plz": "65428",
+      "ort": "Rüsselsheim",
+      "bundesland": "Hessen",
+      "telefon": "06142 5509379",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.9988088,
+      "lng": 8.4300056
+    },
+    {
+      "name": "Dr. med. Inci Atasoy",
+      "strasse": "Böttgerstraße 2",
+      "plz": "60389",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 273166860",
+      "email": "kontakt@praxis-atasoy.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1298282,
+      "lng": 8.6995609
+    },
+    {
+      "name": "Dr. med. Tim Bläsner, Inga Nelson",
+      "strasse": "Frankenallee 171",
+      "plz": "60326",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 7382020",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1037809,
+      "lng": 8.6356463
+    },
+    {
+      "name": "Dr. phil. Dipl.-Psych. Mustafa Özcan",
+      "strasse": "Kaupstraße 47",
+      "plz": "64289",
+      "ort": "Darmstadt",
+      "bundesland": "Hessen",
+      "telefon": "06151 719809",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.8809567,
+      "lng": 8.6619669
+    },
+    {
+      "name": "Dr. phil. nat. Dipl.-Psych. Birsen Nesrin Cangöz",
+      "strasse": "Friedensstr. 3",
+      "plz": "60311",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 27221978",
+      "email": "b.cangoez@t-online.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene",
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1097899,
+      "lng": 8.6748283
+    },
+    {
+      "name": "Dr. phil. Sonay Bal",
+      "strasse": "",
+      "plz": "41464",
+      "ort": "Neuss",
+      "bundesland": "NRW",
+      "telefon": "0176 85928721",
+      "email": "",
+      "website": "www.therapieneuss.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.1910608,
+      "lng": 6.6726219
+    },
+    {
+      "name": "Dr. rer. nat. Ceylan Schuster M. Sc.",
+      "strasse": "Biebergasse 2",
+      "plz": "60313",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0157 31926032",
+      "email": "praxis-vt@posteo.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1142618,
+      "lng": 8.6782151
+    },
+    {
+      "name": "Dr. rer. nat. Dipl.-Psych. Serkan Het",
+      "strasse": "Gräfstr. 41",
+      "plz": "60486",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 71910199",
+      "email": "info@praxis-serkan-het.de",
+      "website": "https://praxis-serkan-het.de",
+      "zielgruppe": [
+        "Erwachsene",
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1174312,
+      "lng": 8.6489852
+    },
+    {
+      "name": "Dr. Tozman & Kolleg:innen",
+      "strasse": "Schumannstraße 24-26",
+      "plz": "60325",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 63392714",
+      "email": "info@psychotherapie-tozman.de",
+      "website": "www.psychotherapie-tozman.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1148831,
+      "lng": 8.6548482
+    },
+    {
+      "name": "Ebru Sümen-Pirinç M.Sc",
+      "strasse": "Frankfurter Str. 124-126",
+      "plz": "63263",
+      "ort": "Neu-Isenburg",
+      "bundesland": "Hessen",
+      "telefon": "06102 3221127",
+      "email": "praxis.suemen@gmail.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0513022,
+      "lng": 8.6954811
+    },
+    {
+      "name": "Emel Okutan-Ghrairi",
+      "strasse": "Gaußstr. 15",
+      "plz": "60316",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0157 50959068",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1206485,
+      "lng": 8.6927492
+    },
+    {
+      "name": "Emine Ersan-Sahan",
+      "strasse": "Merianstr. 47",
+      "plz": "60316",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 71034029",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1218928,
+      "lng": 8.6915914
+    },
+    {
+      "name": "Ercan Solak",
+      "strasse": "Wilhelm-Hauff-Straße 5",
+      "plz": "60325",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0176 50922352",
+      "email": "",
+      "website": "www.praxisercansolak.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.1131913,
+      "lng": 8.6554444
+    },
+    {
+      "name": "Esad Cebi",
+      "strasse": "Von-Brentano-Str. 14",
+      "plz": "63073",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "0152 34752971",
+      "email": "therapiepraxis.cebi@gmail.com",
+      "website": "https://www.praxis-cebi.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0850992,
+      "lng": 8.7973031
+    },
+    {
+      "name": "Esra Alparslan M.Sc.",
+      "strasse": "Bleichstraße 38",
+      "plz": "63065",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "0179 5342001",
+      "email": "psych.alparslan@gmail.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1030441,
+      "lng": 8.7676189
+    },
+    {
+      "name": "Eylem Yesilgöz",
+      "strasse": "Friedhofstraße 72",
+      "plz": "63263",
+      "ort": "Neu-Isenburg",
+      "bundesland": "Hessen",
+      "telefon": "0151 67559212",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0487855,
+      "lng": 8.7041963
+    },
+    {
+      "name": "Eyyuba Cevirici-Kurt M.Sc.",
+      "strasse": "Savignystraße 75",
+      "plz": "60325",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0151 15548003",
+      "email": "Info@praxiseck.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1144642,
+      "lng": 8.6579281
+    },
+    {
+      "name": "Ezgi Didem Schneider",
+      "strasse": "Tengstraße 43",
+      "plz": "80796",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "0151 50839349",
+      "email": "",
+      "website": "https://www.ezgischneider.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.160758,
+      "lng": 11.568534
+    },
+    {
+      "name": "Feyza Gökce",
+      "strasse": "Bonner Pl. 1",
+      "plz": "80803",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "",
+      "email": "",
+      "website": "https://www.therapie.de/profil/goekce/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.167,
+      "lng": 11.578018
+    },
+    {
+      "name": "Filiz Köhler",
+      "strasse": "Rathausstraße 64",
+      "plz": "68519",
+      "ort": "Viernheim",
+      "bundesland": "Hessen",
+      "telefon": "06204 6071303",
+      "email": "koehler-therapie@t-online.de",
+      "website": "https://www.fkoehler-psychotherapie.de",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.5347799,
+      "lng": 8.5760653
+    },
+    {
+      "name": "Frankfurter Psychoanalytisches Institut",
+      "strasse": "Myliusstraße 20",
+      "plz": "60323",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 174629",
+      "email": "geschaeftsstelle@fpi.de",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.1196125,
+      "lng": 8.6621589
+    },
+    {
+      "name": "Frau Anna Cetinerová Baranová",
+      "strasse": "Am Ziegelkamp 1 f",
+      "plz": "41515",
+      "ort": "Grevenbroich",
+      "bundesland": "NRW",
+      "telefon": "02181 6008150",
+      "email": "",
+      "website": "www.neuro-centrum.net",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.0942324,
+      "lng": 6.5969775
+    },
+    {
+      "name": "Frau Ayten Parlak",
+      "strasse": "Alter Wall 55",
+      "plz": "20457",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 60055300",
+      "email": "hallo@mvz55.de",
+      "website": "http://mvz55.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5494886,
+      "lng": 9.9889899
+    },
+    {
+      "name": "Frau Berna Sarah Abegg (F)",
+      "strasse": "Aachener Str. 585",
+      "plz": "50226",
+      "ort": "Frechen",
+      "bundesland": "NRW",
+      "telefon": "0157 39139749",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.936236,
+      "lng": 6.7738942
+    },
+    {
+      "name": "Frau Berna Sarah Abegg (K)",
+      "strasse": "Elisabeth-Breuer-Straße 3",
+      "plz": "51065",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0157 39139749",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9599964,
+      "lng": 7.0086949
+    },
+    {
+      "name": "Frau Berrin Käb",
+      "strasse": "Laboer Weg 20 a",
+      "plz": "24226",
+      "ort": "Heikendorf",
+      "bundesland": "Schleswig-Holstein",
+      "telefon": "0431 243222",
+      "email": "",
+      "website": "http://www.aerzte-praxis-kiel.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 54.3742007,
+      "lng": 10.2071975
+    },
+    {
+      "name": "Frau Berrin Katkarson",
+      "strasse": "Friedrichsplatz 6",
+      "plz": "47798",
+      "ort": "Krefeld",
+      "bundesland": "NRW",
+      "telefon": "02151 804048",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.3359,
+      "lng": 6.5602801
+    },
+    {
+      "name": "Frau Betül Atmaca",
+      "strasse": "Hauptstr. 108",
+      "plz": "50226",
+      "ort": "Frechen",
+      "bundesland": "NRW",
+      "telefon": "0157 83587424",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9095545,
+      "lng": 6.8090503
+    },
+    {
+      "name": "Frau Betül Cigdem",
+      "strasse": "Brückenstraße 21",
+      "plz": "50667",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "Betuel.cigdem@avm-ambulanzen.de",
+      "website": "https://www.psychotherapie-ambulanzen.de/content/ambulanz-koeln",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9379375,
+      "lng": 6.9540689
+    },
+    {
+      "name": "Frau Cahide Aldudak Tursun",
+      "strasse": "Froweinplatz 6",
+      "plz": "42555",
+      "ort": "Velbert",
+      "bundesland": "NRW",
+      "telefon": "02052 4042",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.3530853,
+      "lng": 7.1213763
+    },
+    {
+      "name": "Frau Dilara Mutlu",
+      "strasse": "Friesenwall 24",
+      "plz": "50672",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0171 2255383",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9372692,
+      "lng": 6.9406557
+    },
+    {
+      "name": "Frau Dipl. Psych. Yeliz Öner-Manasov",
+      "strasse": "Hofaue 54",
+      "plz": "42103",
+      "ort": "Wuppertal",
+      "bundesland": "NRW",
+      "telefon": "0202 89834858",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2576314,
+      "lng": 7.1514263
+    },
+    {
+      "name": "Frau Dipl.-Psych. Berrak Kahraman-Lanzerath",
+      "strasse": "Seilgraben 38",
+      "plz": "52062",
+      "ort": "Aachen",
+      "bundesland": "NRW",
+      "telefon": "0241 47585451",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.778775,
+      "lng": 6.0846394
+    },
+    {
+      "name": "Frau Dipl.-Psych. Burcu Ates",
+      "strasse": "Dürener Str. 87",
+      "plz": "50931",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 9403336",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9326524,
+      "lng": 6.9213449
+    },
+    {
+      "name": "Frau Dipl.-Psych. Deniz Baspinar",
+      "strasse": "Riehler Str. 21",
+      "plz": "50668",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 1307432",
+      "email": "",
+      "website": "www.denizbaspinar.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9522884,
+      "lng": 6.9603102
+    },
+    {
+      "name": "Frau Dipl.-Psych. Dilek Durdagi",
+      "strasse": "Rupprechtstr. 5",
+      "plz": "50937",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0157 38347520",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9206417,
+      "lng": 6.9230699
+    },
+    {
+      "name": "Frau Dipl.-Psych. Dr. rer. nat. Deniz Lüdmann",
+      "strasse": "Frankenstr. 276",
+      "plz": "45134",
+      "ort": "Essen",
+      "bundesland": "NRW",
+      "telefon": "0163 7641697",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.4205989,
+      "lng": 7.0249407
+    },
+    {
+      "name": "Frau Dipl.-Psych. Emine Gülöz",
+      "strasse": "Schlossstr. 29",
+      "plz": "45468",
+      "ort": "Mülheim an der Ruhr",
+      "bundesland": "NRW",
+      "telefon": "0208 5943521",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.42752,
+      "lng": 6.8811242
+    },
+    {
+      "name": "Frau Dipl.-Psych. Emine Uzun",
+      "strasse": "Dohne 54 a",
+      "plz": "45468",
+      "ort": "Mülheim an der Ruhr",
+      "bundesland": "NRW",
+      "telefon": "0208 4670715",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.4179458,
+      "lng": 6.8776097
+    },
+    {
+      "name": "Frau Dipl.-Psych. Faysel Terzi",
+      "strasse": "Robert-Bosch-Str. 4",
+      "plz": "53919",
+      "ort": "Weilerswist",
+      "bundesland": "NRW",
+      "telefon": "02254 9568928, 0157 38236341",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.7496802,
+      "lng": 6.8517254
+    },
+    {
+      "name": "Frau Dipl.-Psych. Lale Günther",
+      "strasse": "Schloßstraße 85",
+      "plz": "40477",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0151 54205781",
+      "email": "",
+      "website": "https://pp-guenther.de/uber-mich/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2429041,
+      "lng": 6.7910226
+    },
+    {
+      "name": "Frau Dipl.-Psych. Maryam Zeinali Inanloo",
+      "strasse": "Heller Str. 7",
+      "plz": "42103",
+      "ort": "Wuppertal",
+      "bundesland": "NRW",
+      "telefon": "0202 4292465",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2582744,
+      "lng": 7.1531499
+    },
+    {
+      "name": "Frau Dipl.-Psych. Meral Sentürk",
+      "strasse": "Lindenstr. 14",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 16853085",
+      "email": "",
+      "website": "www.psychotherapiepraxis-koeln.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 50.9343977,
+      "lng": 6.9375641
+    },
+    {
+      "name": "Frau Dipl.-Psych. Mine Gözütok",
+      "strasse": "Hedwigstraße 7",
+      "plz": "45130",
+      "ort": "Essen",
+      "bundesland": "NRW",
+      "telefon": "0201 7228806",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.4372077,
+      "lng": 7.0080148
+    },
+    {
+      "name": "Frau Dipl.-Psych. Müzeyyen Seker",
+      "strasse": "Hauptstr. 11",
+      "plz": "52066",
+      "ort": "Aachen",
+      "bundesland": "NRW",
+      "telefon": "0241 98902225",
+      "email": "",
+      "website": "www.psychotherapiepraxis-seker.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.7637028,
+      "lng": 6.091866
+    },
+    {
+      "name": "Frau Dipl.-Psych. Nur Ulbrich",
+      "strasse": "Adlerstr. 24",
+      "plz": "42655",
+      "ort": "Solingen",
+      "bundesland": "NRW",
+      "telefon": "0179 4810904",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.175445,
+      "lng": 7.066775
+    },
+    {
+      "name": "Frau Dipl.-Psych. Nürten Namli",
+      "strasse": "Ohlenhohnstr. 19",
+      "plz": "53819",
+      "ort": "Neunkirchen-Seelscheid",
+      "bundesland": "NRW",
+      "telefon": "02247 1284967",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.8437827,
+      "lng": 7.3413588
+    },
+    {
+      "name": "Frau Dipl.-Psych. Özgül Koca",
+      "strasse": "Katernbergerstraße 146-152",
+      "plz": "45327",
+      "ort": "Essen",
+      "bundesland": "NRW",
+      "telefon": "0201 87892823",
+      "email": "",
+      "website": "www.praxis-koca.com",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 51.5032002,
+      "lng": 7.0520654
+    },
+    {
+      "name": "Frau Dipl.-Psych. Rita Degirmenci",
+      "strasse": "Schwanenstr. 54",
+      "plz": "42103",
+      "ort": "Wuppertal",
+      "bundesland": "NRW",
+      "telefon": "0202 2429188",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2576871,
+      "lng": 7.1465488
+    },
+    {
+      "name": "Frau Dipl.-Psych. Semra Firat-Deveci",
+      "strasse": "Herzogstr. 22–24",
+      "plz": "50667",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 88869207",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9374232,
+      "lng": 6.9541207
+    },
+    {
+      "name": "Frau Dipl.-Psych. Seray Demir",
+      "strasse": "Bahnhofstr. 126",
+      "plz": "47137",
+      "ort": "Duisburg",
+      "bundesland": "NRW",
+      "telefon": "01522 4051333",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.4654746,
+      "lng": 6.7783506
+    },
+    {
+      "name": "Frau Dipl.-Psych. Sevgü Heß",
+      "strasse": "Folkwangstr. 1",
+      "plz": "45128",
+      "ort": "Essen",
+      "bundesland": "NRW",
+      "telefon": "0201 784084",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.4409177,
+      "lng": 7.0061541
+    },
+    {
+      "name": "Frau Dipl.-Psych. Süheyla Mat",
+      "strasse": "Wilhelmstr. 96",
+      "plz": "42489",
+      "ort": "Wülfrath",
+      "bundesland": "NRW",
+      "telefon": "02058 9261899",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 51.2816702,
+      "lng": 7.0348787
+    },
+    {
+      "name": "Frau Dipl.-Psych. Sümeyya Benli",
+      "strasse": "Burgmauer 6",
+      "plz": "50667",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 2574007",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9414846,
+      "lng": 6.9557238
+    },
+    {
+      "name": "Frau Dipl.-Psych. Suna Met",
+      "strasse": "Alfredstr. 51",
+      "plz": "45130",
+      "ort": "Essen",
+      "bundesland": "NRW",
+      "telefon": "0159 05173521",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.4369914,
+      "lng": 7.003179
+    },
+    {
+      "name": "Frau Dipl.-Psych. Tuba Kulözü",
+      "strasse": "Kirchfeldstr. 149 a",
+      "plz": "40215",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0211 73777795",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2122397,
+      "lng": 6.7860641
+    },
+    {
+      "name": "Frau Dipl.-Psych. Zahide Yücel",
+      "strasse": "Bahnhofstr. 126",
+      "plz": "47137",
+      "ort": "Duisburg",
+      "bundesland": "NRW",
+      "telefon": "0201 74931293",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.4654746,
+      "lng": 6.7783506
+    },
+    {
+      "name": "Frau Dr. (TR) Sibel Aral-Aker",
+      "strasse": "Beurskensweg 3",
+      "plz": "47608",
+      "ort": "Geldern",
+      "bundesland": "NRW",
+      "telefon": "02822 9154306",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.5194933,
+      "lng": 6.3101917
+    },
+    {
+      "name": "Frau Dr. Aylin Ünlü-Godarzi Bakhtiari",
+      "strasse": "Stresemannstraße 23",
+      "plz": "22769",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 53307380",
+      "email": "",
+      "website": "http://www.npz-hamburg.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5595068,
+      "lng": 9.9617024
+    },
+    {
+      "name": "Frau Dr. Demet Dingoyan",
+      "strasse": "Osterstraße 143",
+      "plz": "20255",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 67594614",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5763352,
+      "lng": 9.9490571
+    },
+    {
+      "name": "Frau Dr. med. Erdem Güler-Brilla",
+      "strasse": "Hauptstr. 50",
+      "plz": "41236",
+      "ort": "Mönchengladbach",
+      "bundesland": "NRW",
+      "telefon": "02166 2786630",
+      "email": "",
+      "website": "www.praxis-gueler.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.1681053,
+      "lng": 6.4446972
+    },
+    {
+      "name": "Frau Dr. med. Gülcin Surat-Dagtekin",
+      "strasse": "Neumarkt 8–10",
+      "plz": "50667",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 2727700",
+      "email": "",
+      "website": "www.praxis-nau.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9368506,
+      "lng": 6.948293
+    },
+    {
+      "name": "Frau Dr. med. Sebnem Simsek-Kraues",
+      "strasse": "Frankenring 57",
+      "plz": "47798",
+      "ort": "Krefeld",
+      "bundesland": "NRW",
+      "telefon": "02151 1520977",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.3275069,
+      "lng": 6.5516276
+    },
+    {
+      "name": "Frau Dr. med. Sevil Aslan",
+      "strasse": "Klinikstraße 33",
+      "plz": "35392",
+      "ort": "Gießen",
+      "bundesland": "Hessen",
+      "telefon": "0641 98555920",
+      "email": "Sevil.Aslan@uk-gm.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.5753033,
+      "lng": 8.6656661
+    },
+    {
+      "name": "Frau Dr. Nuray Erenay",
+      "strasse": "Robert-Koch-Straße 36",
+      "plz": "20249",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "0176 84705301",
+      "email": "erenayn@protonmail.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5897955,
+      "lng": 9.9860834
+    },
+    {
+      "name": "Frau Dr. phil. Dipl.-Psych. Cemile Tamboga",
+      "strasse": "Berrenrather Str. 188 c",
+      "plz": "50937",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 40649602",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9201053,
+      "lng": 6.9271374
+    },
+    {
+      "name": "Frau Dr. phil. Kayan Aratow-Kulaksiz",
+      "strasse": "Kaiserstr. 9",
+      "plz": "53113",
+      "ort": "Bonn",
+      "bundesland": "NRW",
+      "telefon": "0228 24008467",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.7308823,
+      "lng": 7.1027326
+    },
+    {
+      "name": "Frau Dr. rer. nat. Emriye Teke",
+      "strasse": "St.-Eustachius-Platz 5",
+      "plz": "41564",
+      "ort": "Kaarst",
+      "bundesland": "NRW",
+      "telefon": "02131 1513441",
+      "email": "",
+      "website": "www.psychotherapie-teke.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2147214,
+      "lng": 6.5796648
+    },
+    {
+      "name": "Frau Ebru Akyürek",
+      "strasse": "Barbarossaplatz 4",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 56090720",
+      "email": "psychologinakyuerek@gmail.com",
+      "website": "https://www.therapie.de/profil/akyuerek/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 50.9289585,
+      "lng": 6.9427233
+    },
+    {
+      "name": "Frau Ebru Yamen",
+      "strasse": "Weststr. 126",
+      "plz": "52134",
+      "ort": "Herzogenrath",
+      "bundesland": "NRW",
+      "telefon": "02407 5736539",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.8318808,
+      "lng": 6.0788002
+    },
+    {
+      "name": "Frau Elif Ucar",
+      "strasse": "Bahnhofstr. 2",
+      "plz": "46562",
+      "ort": "Voerde (Niederrhein)",
+      "bundesland": "NRW",
+      "telefon": "0281 14799660",
+      "email": "",
+      "website": "https://mvz-voerde.gfo-online.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.5963421,
+      "lng": 6.6687214
+    },
+    {
+      "name": "Frau Esra Karahan-Köksal",
+      "strasse": "Roonstr. 2",
+      "plz": "46535",
+      "ort": "Dinslaken",
+      "bundesland": "NRW",
+      "telefon": "02064 58008",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.5645798,
+      "lng": 6.7390177
+    },
+    {
+      "name": "Frau Farzaneh Alizadeh Mirzanagh",
+      "strasse": "Kaulardstr. 21",
+      "plz": "50354",
+      "ort": "Hürth",
+      "bundesland": "NRW",
+      "telefon": "0160 94966260",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.8943412,
+      "lng": 6.9024471
+    },
+    {
+      "name": "Frau Fatma Roesner",
+      "strasse": "Markt 2",
+      "plz": "24306",
+      "ort": "Plön",
+      "bundesland": "Schleswig-Holstein",
+      "telefon": "04522 7612533",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 54.1587558,
+      "lng": 10.4181559
+    },
+    {
+      "name": "Frau Fatma-Kübra Arslan",
+      "strasse": "Uerdinger Str. 579",
+      "plz": "47800",
+      "ort": "Krefeld",
+      "bundesland": "NRW",
+      "telefon": "02151 4466252",
+      "email": "",
+      "website": "www.nvpp.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.3452175,
+      "lng": 6.6172367
+    },
+    {
+      "name": "Frau Firdes Cam",
+      "strasse": "Odenthaler Str. 2",
+      "plz": "51375",
+      "ort": "Leverkusen",
+      "bundesland": "NRW",
+      "telefon": "0214 8505191",
+      "email": "",
+      "website": "www.psychiater-kraemer.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.0362313,
+      "lng": 7.0526731
+    },
+    {
+      "name": "Frau Funda Yapkac M.Sc.",
+      "strasse": "Gräfstraße 41",
+      "plz": "60486",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 71910199",
+      "email": "info@praxis-serkan-het.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1174312,
+      "lng": 8.6489852
+    },
+    {
+      "name": "Frau Hamide Burcin Demiragli",
+      "strasse": "Horionplatz 6",
+      "plz": "40213",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0211 86842882",
+      "email": "",
+      "website": "www.praxis-demiragli.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2198078,
+      "lng": 6.7687905
+    },
+    {
+      "name": "Frau Helin Tunc-Erang",
+      "strasse": "Luxemburger Str. 59",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "https://tagesklinik-friesenplatz.de/team",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9256886,
+      "lng": 6.9383373
+    },
+    {
+      "name": "Frau Imge Elcin Ürer",
+      "strasse": "Schwalbengasse 12-14",
+      "plz": "50667",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 57074074",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9402275,
+      "lng": 6.9495507
+    },
+    {
+      "name": "Frau Ipek Yasar M.Sc.",
+      "strasse": "Jahnstraße 15",
+      "plz": "60318",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 66966171",
+      "email": "",
+      "website": "https://www.psychpraxis.net/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.120439,
+      "lng": 8.6845504
+    },
+    {
+      "name": "Frau Irmak Bagirsakci",
+      "strasse": "Schillerstraße 47 - 49",
+      "plz": "22767",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 39901025",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5512292,
+      "lng": 9.9380743
+    },
+    {
+      "name": "Frau Marianne Kohnert",
+      "strasse": "An der Alster 18",
+      "plz": "20099",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 2512744",
+      "email": "ab-hh@gmx.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5602534,
+      "lng": 10.012417
+    },
+    {
+      "name": "Frau Melek Yildirim",
+      "strasse": "Krokusstraße 39",
+      "plz": "47249",
+      "ort": "Duisburg",
+      "bundesland": "NRW",
+      "telefon": "0203 55247444",
+      "email": "",
+      "website": "www.psycho-med.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.3778587,
+      "lng": 6.757597
+    },
+    {
+      "name": "Frau Merve Yüzil",
+      "strasse": "Graf-Adolf-Str. 89",
+      "plz": "40210",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0211 2206699",
+      "email": "",
+      "website": "www.advitam-duesseldorf.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2193526,
+      "lng": 6.7898723
+    },
+    {
+      "name": "Frau Nadya Hollander",
+      "strasse": "Rolandstr. 55",
+      "plz": "50677",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 42313956",
+      "email": "kontakt@psycho-therapie-koeln.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.918583,
+      "lng": 6.9574318
+    },
+    {
+      "name": "Frau Nazan Topal",
+      "strasse": "Eppendorfer Weg 64",
+      "plz": "20259",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "0177 7740176",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5728749,
+      "lng": 9.9604382
+    },
+    {
+      "name": "Frau Nigar Hasanov",
+      "strasse": "Augustastraße 7",
+      "plz": "47441",
+      "ort": "Moers",
+      "bundesland": "NRW",
+      "telefon": "02841 16668",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.4494209,
+      "lng": 6.6345143
+    },
+    {
+      "name": "Frau Nigar Seker",
+      "strasse": "Konrad-Adenauer-Ufer 39",
+      "plz": "50668",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 20463085",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.947679,
+      "lng": 6.9638275
+    },
+    {
+      "name": "Frau Nilüfer Ak",
+      "strasse": "Steinsche Gasse 34",
+      "plz": "47051",
+      "ort": "Duisburg",
+      "bundesland": "NRW",
+      "telefon": "0203 39244320",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.43272,
+      "lng": 6.7608319
+    },
+    {
+      "name": "Frau Rahsan Karakavuz-Heiligers",
+      "strasse": "Lothringerstr. 62",
+      "plz": "52070",
+      "ort": "Aachen",
+      "bundesland": "NRW",
+      "telefon": "0241 4016700",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.7702964,
+      "lng": 6.0971877
+    },
+    {
+      "name": "Frau Saida Manafli",
+      "strasse": "Lindenstr. 260",
+      "plz": "41063",
+      "ort": "Mönchengladbach",
+      "bundesland": "NRW",
+      "telefon": "02161 896644",
+      "email": "",
+      "website": "www.altanakdag.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2038542,
+      "lng": 6.4129526
+    },
+    {
+      "name": "Frau Sema Demir-Sener",
+      "strasse": "Steinrader Weg 15",
+      "plz": "23558",
+      "ort": "Lübeck",
+      "bundesland": "Schleswig-Holstein",
+      "telefon": "0172 1777753",
+      "email": "praxis.demir-sener.hl@tutanota.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.8681781,
+      "lng": 10.6693569
+    },
+    {
+      "name": "Frau Sevgi Kayikci",
+      "strasse": "Altenessener Str. 442",
+      "plz": "45329",
+      "ort": "Essen",
+      "bundesland": "NRW",
+      "telefon": "0201 340041",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.500032,
+      "lng": 7.0082933
+    },
+    {
+      "name": "Frau Sila Yüce Citir",
+      "strasse": "Vogteistr. 16",
+      "plz": "52511",
+      "ort": "Geilenkirchen",
+      "bundesland": "NRW",
+      "telefon": "02451 8077",
+      "email": "",
+      "website": "www.neuro-docs.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9631195,
+      "lng": 6.1176994
+    },
+    {
+      "name": "Frau Sultan Kulak",
+      "strasse": "Hohenstaufenring 66–70",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 2578141",
+      "email": "",
+      "website": "www.goekelma.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.933938,
+      "lng": 6.9398755
+    },
+    {
+      "name": "Frau Tip Dr. (Univ. Istanbul) Yasemin Akkoca",
+      "strasse": "Eisernsteinstr. 16",
+      "plz": "42899",
+      "ort": "Remscheid",
+      "bundesland": "NRW",
+      "telefon": "02191 6966490",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2136218,
+      "lng": 7.2399559
+    },
+    {
+      "name": "Frau Tugba Jebran",
+      "strasse": "Grabengasse 11–13",
+      "plz": "50679",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0152 29993330",
+      "email": "Praxis@psychotherapie-akkusjebran.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9349617,
+      "lng": 6.972011
+    },
+    {
+      "name": "Frau Tülay Kantekin",
+      "strasse": "Grindelallee 188",
+      "plz": "20144",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 46091602",
+      "email": "therapie@durlanik.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5721395,
+      "lng": 9.9790007
+    },
+    {
+      "name": "Frau Yasemin Ercan-Bohland",
+      "strasse": "Stephanstr. 3",
+      "plz": "41061",
+      "ort": "Mönchengladbach",
+      "bundesland": "NRW",
+      "telefon": "02161 3022939",
+      "email": "",
+      "website": "https://www.praxis-ercanbohland.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.1948047,
+      "lng": 6.4418905
+    },
+    {
+      "name": "Frau Yasemin Güleryüz",
+      "strasse": "Bodelschwinghstr. 2",
+      "plz": "50354",
+      "ort": "Hürth",
+      "bundesland": "NRW",
+      "telefon": "0152 59851405",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.8972394,
+      "lng": 6.896601
+    },
+    {
+      "name": "Frau Zehra Babur",
+      "strasse": "Grindelallee 188",
+      "plz": "20144",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 20962429",
+      "email": "psychotherapie.babur@gmail.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5721395,
+      "lng": 9.9790007
+    },
+    {
+      "name": "Frau Zeynep Atik",
+      "strasse": "Carl-Leverkus-Str. 40",
+      "plz": "51373",
+      "ort": "Leverkusen",
+      "bundesland": "NRW",
+      "telefon": "0214 403571",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.0323012,
+      "lng": 6.9786156
+    },
+    {
+      "name": "Gamze Sever",
+      "strasse": "Haroldstraße 28",
+      "plz": "40213",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0163 1953304",
+      "email": "kontakt@gamzesever.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.2192046,
+      "lng": 6.7743244
+    },
+    {
+      "name": "GAP - Psychotherapeutische Ambulanz",
+      "strasse": "Beethovenstraße 18",
+      "plz": "60325",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 97409026",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.1133109,
+      "lng": 8.6571094
+    },
+    {
+      "name": "Gülcan Agtas",
+      "strasse": "Bahnhofstr. 22 A",
+      "plz": "65428",
+      "ort": "Rüsselsheim",
+      "bundesland": "Hessen",
+      "telefon": "06142 2077860",
+      "email": "guelcan_a@yahoo.de",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.9936636,
+      "lng": 8.4143787
+    },
+    {
+      "name": "Gülsüm Ince",
+      "strasse": "Mittelstraße 57",
+      "plz": "45699",
+      "ort": "Herten",
+      "bundesland": "NRW",
+      "telefon": "0151 56320509",
+      "email": "",
+      "website": "https://www.guelsuem-ince.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.6045298,
+      "lng": 7.1457896
+    },
+    {
+      "name": "Hafize Yavuz",
+      "strasse": "Frankfurter Straße 62",
+      "plz": "65428",
+      "ort": "Rüsselsheim",
+      "bundesland": "Hessen",
+      "telefon": "0177 6009350",
+      "email": "info@praxis-yavuz.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene",
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.9976176,
+      "lng": 8.4186728
+    },
+    {
+      "name": "HAIP (Hessische Akademie)",
+      "strasse": "Sophie-Scholl-Platz 4",
+      "plz": "63452",
+      "ort": "Hanau",
+      "bundesland": "Hessen",
+      "telefon": "06181 1807735",
+      "email": "info@haip-ausbildung.de",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.1431446,
+      "lng": 8.9393562
+    },
+    {
+      "name": "Hasan-Hüseyin Isik (FFM)",
+      "strasse": "Paul-Ehrlich-Str. 24",
+      "plz": "60596",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 93493849",
+      "email": "kontakt@therapie-isik.de",
+      "website": "https://therapie-isik.de",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0969558,
+      "lng": 8.6672327
+    },
+    {
+      "name": "Hasan-Hüseyin Isik (Nidderau)",
+      "strasse": "Siemensstr. 48",
+      "plz": "61130",
+      "ort": "Nidderau",
+      "bundesland": "Hessen",
+      "telefon": "069 93493849",
+      "email": "kontakt@therapie-isik.de",
+      "website": "https://therapie-isik.de",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.2446571,
+      "lng": 8.8634533
+    },
+    {
+      "name": "Herr Ali Kaya",
+      "strasse": "Forststr. 52",
+      "plz": "42697",
+      "ort": "Solingen",
+      "bundesland": "NRW",
+      "telefon": "0212 64518688",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.1570089,
+      "lng": 6.9991809
+    },
+    {
+      "name": "Herr Birol Aydin",
+      "strasse": "Erdkampsweg 38",
+      "plz": "22335",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 50053355",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.6293248,
+      "lng": 10.0234262
+    },
+    {
+      "name": "Herr Burak Baskaya",
+      "strasse": "Krefelder Str. 15",
+      "plz": "41460",
+      "ort": "Neuss",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "https://calm-tagesklinik.de/duesseldorf/team/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2025054,
+      "lng": 6.6845578
+    },
+    {
+      "name": "Herr Cetin Kova",
+      "strasse": "Bornstraße 4",
+      "plz": "20146",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 30761479",
+      "email": "info@cetinkova.de",
+      "website": "http://www.cetinkova.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5694449,
+      "lng": 9.9810403
+    },
+    {
+      "name": "Herr Deniz-Levent Ergec",
+      "strasse": "Engelbertstr. 31 a",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 80048922",
+      "email": "",
+      "website": "www.denizergec.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9328942,
+      "lng": 6.9385125
+    },
+    {
+      "name": "Herr Dipl.-Kfm. Ugur Cem Özcelik",
+      "strasse": "Eichenheck 28",
+      "plz": "52076",
+      "ort": "Aachen",
+      "bundesland": "NRW",
+      "telefon": "0241 91797230",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.7195809,
+      "lng": 6.1526684
+    },
+    {
+      "name": "Herr Dipl.-Psych. Alparslan Tiryaki",
+      "strasse": "Geilenkirchener Str. 3",
+      "plz": "52525",
+      "ort": "Heinsberg",
+      "bundesland": "NRW",
+      "telefon": "02452 1572575",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.0586052,
+      "lng": 6.0913773
+    },
+    {
+      "name": "Herr Dipl.-Psych. Ilyas Gercek",
+      "strasse": "Schwanenstr. 5–11",
+      "plz": "40721",
+      "ort": "Hilden",
+      "bundesland": "NRW",
+      "telefon": "0176 43523384",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.168192,
+      "lng": 6.9314025
+    },
+    {
+      "name": "Herr Dipl.-Psych. Kemal Engin",
+      "strasse": "Königstr. 36",
+      "plz": "47051",
+      "ort": "Duisburg",
+      "bundesland": "NRW",
+      "telefon": "0203 9852676",
+      "email": "",
+      "website": "www.psychotherapie-engin.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.432954,
+      "lng": 6.7672418
+    },
+    {
+      "name": "Herr Dipl.-Psych. Musa Kaydul",
+      "strasse": "Schwabenstr. 19",
+      "plz": "47169",
+      "ort": "Duisburg",
+      "bundesland": "NRW",
+      "telefon": "0203 71408738",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.506327,
+      "lng": 6.7677187
+    },
+    {
+      "name": "Herr Dipl.-Psych. Serger Bozkurt",
+      "strasse": "Parsickstr. 27",
+      "plz": "47441",
+      "ort": "Moers",
+      "bundesland": "NRW",
+      "telefon": "02841 4088000",
+      "email": "",
+      "website": "www.bozkurt-psychotherapie.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 51.4476797,
+      "lng": 6.6058213
+    },
+    {
+      "name": "Herr Dr. (TR) Ismet Karaoguz",
+      "strasse": "Schildergasse 81",
+      "plz": "50667",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 2583166",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9363609,
+      "lng": 6.9514881
+    },
+    {
+      "name": "Herr Dr. Ali Ekber Kaya",
+      "strasse": "Eckhoffplatz 28",
+      "plz": "22547",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 84050393",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5927358,
+      "lng": 9.8730478
+    },
+    {
+      "name": "Herr Dr. Ali Ekber Kaya (Notkestr.)",
+      "strasse": "Notkestraße 105a",
+      "plz": "22607",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 84050393",
+      "email": "praxis@draliekberkaya.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5722598,
+      "lng": 9.8780068
+    },
+    {
+      "name": "Herr Dr. Ali Erdogan",
+      "strasse": "Wandsbeker Chaussee 1",
+      "plz": "22089",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 25331867",
+      "email": "info@drerdogan.de",
+      "website": "http://www.drerdogan.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5645354,
+      "lng": 10.0344463
+    },
+    {
+      "name": "Herr Dr. Arif Örsal",
+      "strasse": "Kaiser-Wilhelm-Straße 47",
+      "plz": "20355",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "0152 59207124",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5531839,
+      "lng": 9.9832
+    },
+    {
+      "name": "Herr Dr. Ibrahim Firat",
+      "strasse": "Holtenauer Straße 151-155",
+      "plz": "24118",
+      "ort": "Kiel",
+      "bundesland": "Schleswig-Holstein",
+      "telefon": "0431 8999981",
+      "email": "drifirat@gmail.com",
+      "website": "http://www.drfirat.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 54.34185,
+      "lng": 10.13304
+    },
+    {
+      "name": "Herr Dr. med. Behrem Aslan",
+      "strasse": "Venusberg-Campus 1",
+      "plz": "53127",
+      "ort": "Bonn",
+      "bundesland": "NRW",
+      "telefon": "0228 28713567",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.6998177,
+      "lng": 7.1026742
+    },
+    {
+      "name": "Herr Dr. med. Dr.(TR) Murat Ozankan",
+      "strasse": "Deutzer Freiheit 68",
+      "plz": "50679",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 26044790",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9366317,
+      "lng": 6.9737792
+    },
+    {
+      "name": "Herr Dr. med. Yavuz Kara",
+      "strasse": "Viehhofstr. 43",
+      "plz": "52066",
+      "ort": "Aachen",
+      "bundesland": "NRW",
+      "telefon": "0241 21909",
+      "email": "",
+      "website": "www.aachen-neurologie.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.7624136,
+      "lng": 6.0952451
+    },
+    {
+      "name": "Herr Dr. Oktay Yagdiran",
+      "strasse": "Hahnenkamp 1",
+      "plz": "22765",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 39893450",
+      "email": "",
+      "website": "http://www.aerztenetz-ottensen.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5530331,
+      "lng": 9.933371
+    },
+    {
+      "name": "Herr Ercan Demircan",
+      "strasse": "Hauptstr. 163",
+      "plz": "42579",
+      "ort": "Heiligenhaus",
+      "bundesland": "NRW",
+      "telefon": "02056 9699955",
+      "email": "",
+      "website": "www.psychiatrie-heiligenhaus.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.3266385,
+      "lng": 6.9703362
+    },
+    {
+      "name": "Herr Güney Güldü",
+      "strasse": "Teuteburger Straße 24",
+      "plz": "50678",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 80010248",
+      "email": "",
+      "website": "https://www.psychotherapeuten-abel.de/wir/gueney-gueldue/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9185649,
+      "lng": 6.9625452
+    },
+    {
+      "name": "Herr Kaya Gülbeyaz",
+      "strasse": "Schillerstraße 47 - 49",
+      "plz": "22767",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 39901025",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.5512292,
+      "lng": 9.9380743
+    },
+    {
+      "name": "Herr Kayhan Karaduman",
+      "strasse": "Lüpertzender Str. 156",
+      "plz": "41061",
+      "ort": "Mönchengladbach",
+      "bundesland": "NRW",
+      "telefon": "02161 8271118",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.1933267,
+      "lng": 6.4430336
+    },
+    {
+      "name": "Herr Kemal Akbay",
+      "strasse": "Hohenstaufenring 47–51",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 2722530",
+      "email": "",
+      "website": "www.neuropsycho.net",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9324861,
+      "lng": 6.9397851
+    },
+    {
+      "name": "Herr Mehmet Safak Akgül",
+      "strasse": "Pfitznerstr. 2 A",
+      "plz": "50931",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 2778527",
+      "email": "",
+      "website": "praxis-akguel.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.936246,
+      "lng": 6.9182864
+    },
+    {
+      "name": "Herr Nihat Özer",
+      "strasse": "Wiener Platz 5",
+      "plz": "51065",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 29496731",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.9625057,
+      "lng": 7.0049558
+    },
+    {
+      "name": "Herr Örsan Arslan",
+      "strasse": "In der Haag 1 a",
+      "plz": "41379",
+      "ort": "Brüggen",
+      "bundesland": "NRW",
+      "telefon": "02163 5760010",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2411098,
+      "lng": 6.1869062
+    },
+    {
+      "name": "Herr Polat Öner",
+      "strasse": "Speestr. 30",
+      "plz": "47669",
+      "ort": "Wachtendonk",
+      "bundesland": "NRW",
+      "telefon": "0177 6513330",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.4026225,
+      "lng": 6.3025666
+    },
+    {
+      "name": "Herr Segmen Gökelma",
+      "strasse": "Hohenstaufenring 66–70",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0221 2578141",
+      "email": "",
+      "website": "www.goekelma.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.933938,
+      "lng": 6.9398755
+    },
+    {
+      "name": "Herr Tanju Demirtas",
+      "strasse": "Hauptstr. 100",
+      "plz": "42555",
+      "ort": "Velbert",
+      "bundesland": "NRW",
+      "telefon": "0178 3827037",
+      "email": "",
+      "website": "www.therapie.de/profil/demirtas",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.3504511,
+      "lng": 7.1156382
+    },
+    {
+      "name": "Herr Tip Dr. Fahrudin Halilovic",
+      "strasse": "Barmer Str. 17",
+      "plz": "42899",
+      "ort": "Remscheid",
+      "bundesland": "NRW",
+      "telefon": "02191 55960",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2135472,
+      "lng": 7.2404349
+    },
+    {
+      "name": "Herr Tip. Dr. Altan Akdag (Krefeld)",
+      "strasse": "Ostwall 95",
+      "plz": "47798",
+      "ort": "Krefeld",
+      "bundesland": "NRW",
+      "telefon": "02161 896640",
+      "email": "",
+      "website": "https://altanakdag.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.3304444,
+      "lng": 6.5676592
+    },
+    {
+      "name": "Herr Tip. Dr. Altan Akdag (MG)",
+      "strasse": "Lindenstr. 260",
+      "plz": "41063",
+      "ort": "Mönchengladbach",
+      "bundesland": "NRW",
+      "telefon": "02161 896644",
+      "email": "",
+      "website": "www.altanakdag.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2038542,
+      "lng": 6.4129526
+    },
+    {
+      "name": "Herr Yigit Sinan Saltik",
+      "strasse": "Querstr. 29",
+      "plz": "52477",
+      "ort": "Alsdorf",
+      "bundesland": "NRW",
+      "telefon": "02404 26058",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.8604584,
+      "lng": 6.1943868
+    },
+    {
+      "name": "Herr Yusuf Ayaksiz",
+      "strasse": "Ochsenweberstraße 12",
+      "plz": "22419",
+      "ort": "Hamburg",
+      "bundesland": "Hamburg",
+      "telefon": "040 53779185",
+      "email": "ayaksiz.yusuf@mvz-gmbh.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 53.6698408,
+      "lng": 10.0118957
+    },
+    {
+      "name": "HHU Düsseldorf",
+      "strasse": "Universitätsstraße 1",
+      "plz": "40225",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.ausbildung-psychotherapie.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.1883689,
+      "lng": 6.7948048
+    },
+    {
+      "name": "Hilal Virit",
+      "strasse": "Frankfurter Str. 103",
+      "plz": "63263",
+      "ort": "Neu-Isenburg",
+      "bundesland": "Hessen",
+      "telefon": "06102 3524476",
+      "email": "",
+      "website": "https://hilalvirit.de/kontakt",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0521321,
+      "lng": 8.6949833
+    },
+    {
+      "name": "ifs Essen",
+      "strasse": "Bochumer Str. 50",
+      "plz": "45276",
+      "ort": "Essen",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.ifs-essen.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.44592,
+      "lng": 7.0795574
+    },
+    {
+      "name": "IKV Düsseldorf",
+      "strasse": "Bergische Landstraße 2",
+      "plz": "40629",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.klinikum-duesseldorf.lvr.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.2435954,
+      "lng": 6.8434382
+    },
+    {
+      "name": "IKVT Hessen",
+      "strasse": "Bahnhofstraße 27",
+      "plz": "65185",
+      "ort": "Wiesbaden",
+      "bundesland": "Hessen",
+      "telefon": "0611 34131940",
+      "email": "post@ikvt.de",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.0771562,
+      "lng": 8.2419825
+    },
+    {
+      "name": "Institut für Psychologie Goethe Uni",
+      "strasse": "Varrentrappstraße 40-42",
+      "plz": "60486",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 79825102",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.1161209,
+      "lng": 8.6480639
+    },
+    {
+      "name": "Institut für Psychotherapie Marburg",
+      "strasse": "Gutenbergstraße 18",
+      "plz": "35032",
+      "ort": "Marburg",
+      "bundesland": "Hessen",
+      "telefon": "06421 2823657",
+      "email": "pam@uni-marburg.de",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.8047053,
+      "lng": 8.7698203
+    },
+    {
+      "name": "IPD Düsseldorf",
+      "strasse": "Freiligrathstr. 13",
+      "plz": "40479",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.psychoanalyse-duesseldorf.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.2335402,
+      "lng": 6.7779664
+    },
+    {
+      "name": "IPP Bochum",
+      "strasse": "Prümerstr. 4",
+      "plz": "44787",
+      "ort": "Bochum",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.ipp-bochum.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.4849962,
+      "lng": 7.2143967
+    },
+    {
+      "name": "IPP Münster",
+      "strasse": "Schorlemerstr. 26",
+      "plz": "48143",
+      "ort": "Münster",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.ipp-muenster.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.9561633,
+      "lng": 7.630613
+    },
+    {
+      "name": "IPP Siegen-Wittgenstein",
+      "strasse": "Sählingstr. 60",
+      "plz": "57319",
+      "ort": "Bad Berleburg",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.ipp-sw.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.0596103,
+      "lng": 8.4086371
+    },
+    {
+      "name": "IPPO Ostwestfalen",
+      "strasse": "Lange Straße 73",
+      "plz": "33790",
+      "ort": "Halle/Westf.",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.ippo.org",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 52.0592849,
+      "lng": 8.365602
+    },
+    {
+      "name": "IPPP Düsseldorf",
+      "strasse": "Bergische Landstraße 2",
+      "plz": "40629",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.akademie-psychoanalyse-duesseldorf.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.2435954,
+      "lng": 6.8434382
+    },
+    {
+      "name": "IPR Köln",
+      "strasse": "Georgstr. 18",
+      "plz": "50676",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.iprkoeln.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.9321465,
+      "lng": 6.9584371
+    },
+    {
+      "name": "Isa Sandiraz",
+      "strasse": "Bahnhofstr. 15",
+      "plz": "34587",
+      "ort": "Felsberg",
+      "bundesland": "Hessen",
+      "telefon": "0176 74578141",
+      "email": "psychotherapie.felsberg@gmail.com",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.1288693,
+      "lng": 9.4373799
+    },
+    {
+      "name": "Ismayil Tokmak",
+      "strasse": "Friedrich-Dietz-Str. 3",
+      "plz": "36093",
+      "ort": "Künzell",
+      "bundesland": "Hessen",
+      "telefon": "+49 661 90198117",
+      "email": "info@kjp-tokmak.de",
+      "website": "https://www.kjp-tokmak.de",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.5396215,
+      "lng": 9.7141617
+    },
+    {
+      "name": "Jaleh Fouladpour",
+      "strasse": "John F. Kennedy Str. 51",
+      "plz": "35510",
+      "ort": "Butzbach",
+      "bundesland": "Hessen",
+      "telefon": "06033 3680127",
+      "email": "jaleh.abdel@web.de",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.4409543,
+      "lng": 8.6576599
+    },
+    {
+      "name": "Kamil Arslanalp",
+      "strasse": "Am Messehaus 4",
+      "plz": "90489",
+      "ort": "Nürnberg",
+      "bundesland": "Bayern",
+      "telefon": "0911 99983611",
+      "email": "",
+      "website": "https://www.praxis-arslanalp.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 49.463239,
+      "lng": 11.099477
+    },
+    {
+      "name": "KBAP Bonn",
+      "strasse": "Wenzelgasse 35",
+      "plz": "53111",
+      "ort": "Bonn",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.kbap.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.7370764,
+      "lng": 7.1023468
+    },
+    {
+      "name": "KBAV Bonn",
+      "strasse": "Wenzelgasse 35",
+      "plz": "53111",
+      "ort": "Bonn",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.kbav-online.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.7370764,
+      "lng": 7.1023468
+    },
+    {
+      "name": "Kraus Michael",
+      "strasse": "Frankfurter Str. 36",
+      "plz": "61118",
+      "ort": "Bad Vilbel",
+      "bundesland": "Hessen",
+      "telefon": "069 2443234900",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1815598,
+      "lng": 8.7417104
+    },
+    {
+      "name": "Lale Günther",
+      "strasse": "Horstmannsweg 3b",
+      "plz": "47445",
+      "ort": "Moers",
+      "bundesland": "NRW",
+      "telefon": "0151 54205781",
+      "email": "",
+      "website": "pp-guenther.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.4738194,
+      "lng": 6.6014293
+    },
+    {
+      "name": "Lehrinstitut Bad Salzuflen (ZAP)",
+      "strasse": "Alte Vlothoer Str. 47-49",
+      "plz": "32105",
+      "ort": "Bad Salzuflen",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.dft-lehrinstitut.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 52.0962327,
+      "lng": 8.7613191
+    },
+    {
+      "name": "Leyla Arslan",
+      "strasse": "Höherweg 270",
+      "plz": "40231",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0163 7387140",
+      "email": "",
+      "website": "https://leylaarslan-hppsychotherapie.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.221432,
+      "lng": 6.8284107
+    },
+    {
+      "name": "LPP Drensteinfurt",
+      "strasse": "Stellastr. 7a",
+      "plz": "48317",
+      "ort": "Drensteinfurt",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.lpp-lehrinstitut.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.8473651,
+      "lng": 7.685596
+    },
+    {
+      "name": "M. Sc. Ece Güler",
+      "strasse": "Roonstraße 86",
+      "plz": "44628",
+      "ort": "Herne",
+      "bundesland": "NRW",
+      "telefon": "02323 3986961",
+      "email": "",
+      "website": "https://praxisgueler.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.5513197,
+      "lng": 7.2298465
+    },
+    {
+      "name": "M. Sc. Psych. Roni Tunç",
+      "strasse": "Apostelnstraße 32-34",
+      "plz": "50667",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0163 9109069",
+      "email": "praxis@psychotherapie-ronitunc.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9378944,
+      "lng": 6.9453016
+    },
+    {
+      "name": "M. Sc. Psych. Zeynep Marx",
+      "strasse": "Trierer Str. 29",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0174 1875308",
+      "email": "info@psychotherapiemarx.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9275719,
+      "lng": 6.9431511
+    },
+    {
+      "name": "M.A. Ebru Ceylan",
+      "strasse": "Homburger Straße 27",
+      "plz": "60486",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0172 6888844",
+      "email": "",
+      "website": "www.selbst.coach",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.1193528,
+      "lng": 8.646286
+    },
+    {
+      "name": "M.Sc. Cem Yilmaz",
+      "strasse": "Bernardstr. 112",
+      "plz": "63067",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "0151 18982462",
+      "email": "kontakt@praxis-cemyilmaz.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1070655,
+      "lng": 8.745959
+    },
+    {
+      "name": "M.Sc. Didem Tas",
+      "strasse": "E3 16",
+      "plz": "68159",
+      "ort": "Mannheim",
+      "bundesland": "Baden-Württemberg",
+      "telefon": "0157 57098612",
+      "email": "",
+      "website": "www.systemischetherapie-mannheim.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 49.488867,
+      "lng": 8.4645478
+    },
+    {
+      "name": "M.Sc. Dilek Kara",
+      "strasse": "Augustinusstraße 11c",
+      "plz": "50226",
+      "ort": "Frechen",
+      "bundesland": "NRW",
+      "telefon": "0152 57568150",
+      "email": "",
+      "website": "https://psychotherapie-dilekkara.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9357581,
+      "lng": 6.7785765
+    },
+    {
+      "name": "M.Sc. Eylem Albayrak",
+      "strasse": "Christian-Gau-Str. 5",
+      "plz": "50933",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "kontakt@psychotherapie-albayrak.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9357513,
+      "lng": 6.8999875
+    },
+    {
+      "name": "M.Sc. Gülsah Sirin Özel",
+      "strasse": "Jakob-Kaiser-Str. 11",
+      "plz": "50858",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0163 8725431",
+      "email": "",
+      "website": "https://www.dilveruh.com/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9244795,
+      "lng": 6.8743218
+    },
+    {
+      "name": "M.Sc. Psych. Bilal Celik",
+      "strasse": "Burgmauer 6",
+      "plz": "50667",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0174 8627744",
+      "email": "bilal.celik@posteo.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9414846,
+      "lng": 6.9557238
+    },
+    {
+      "name": "M.Sc. Psych. Elif Damar",
+      "strasse": "Bürgerstraße 5 A",
+      "plz": "67063",
+      "ort": "Ludwigshafen",
+      "bundesland": "Rheinland-Pfalz",
+      "telefon": "0174 4002846",
+      "email": "",
+      "website": "psychotherapie-eryildiz.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 49.4893755,
+      "lng": 8.4303495
+    },
+    {
+      "name": "M.Sc. Sevilay Alhan",
+      "strasse": "Barbarossaplatz 4",
+      "plz": "50674",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0173 4237700",
+      "email": "alhanpsychotherapie@gmail.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9289585,
+      "lng": 6.9427233
+    },
+    {
+      "name": "Mehmet Süseli",
+      "strasse": "Am Hallenbad 3",
+      "plz": "35260",
+      "ort": "Stadtallendorf",
+      "bundesland": "Hessen",
+      "telefon": "06428 8069180",
+      "email": "m.sueseli-praxis@online.de",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.8279345,
+      "lng": 9.014757
+    },
+    {
+      "name": "Mehtap Pinarbasi",
+      "strasse": "Stettiner Str. 33",
+      "plz": "34225",
+      "ort": "Baunatal",
+      "bundesland": "Hessen",
+      "telefon": "0173 5762892",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.2543614,
+      "lng": 9.3856785
+    },
+    {
+      "name": "Menekse Gün",
+      "strasse": "Rotenburger Str. 8",
+      "plz": "34212",
+      "ort": "Melsungen",
+      "bundesland": "Hessen",
+      "telefon": "05661 7550231",
+      "email": "meneske.guen@arcor.de",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 51.1305631,
+      "lng": 9.5444892
+    },
+    {
+      "name": "Müge Lasch, Dr. med. Katrin Yildiz-Erzberger",
+      "strasse": "Kaiserstraße 39",
+      "plz": "63065",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 80087390",
+      "email": "praxis@gnpo.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1035284,
+      "lng": 8.7594174
+    },
+    {
+      "name": "Murat Alaca",
+      "strasse": "Schulstr. 49",
+      "plz": "65795",
+      "ort": "Hattersheim",
+      "bundesland": "Hessen",
+      "telefon": "06190 9266078",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0637475,
+      "lng": 8.4805515
+    },
+    {
+      "name": "Nilgül Mengi",
+      "strasse": "Brettergartenstraße 35",
+      "plz": "90427",
+      "ort": "Nürnberg",
+      "bundesland": "Bayern",
+      "telefon": "0911 39440541",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 49.468523,
+      "lng": 11.03184
+    },
+    {
+      "name": "Nuran Aytekin",
+      "strasse": "Wilhelm-Leuschner-Str. 22",
+      "plz": "64347",
+      "ort": "Griesheim",
+      "bundesland": "Hessen",
+      "telefon": "0611 531680",
+      "email": "praxis-aytekin@gmx.de",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.8603182,
+      "lng": 8.5586171
+    },
+    {
+      "name": "Nurettin Eminaga",
+      "strasse": "Berliner Str. 223",
+      "plz": "63067",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 85090550",
+      "email": "",
+      "website": "https://www.praxis-eminaga.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1062396,
+      "lng": 8.750246
+    },
+    {
+      "name": "Özge Greger",
+      "strasse": "Ackerstraße 168a",
+      "plz": "40233",
+      "ort": "Düsseldorf",
+      "bundesland": "NRW",
+      "telefon": "0151 40334043",
+      "email": "",
+      "website": "https://hypnosepraxis-greger.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.2303486,
+      "lng": 6.8083911
+    },
+    {
+      "name": "Özğür Yener",
+      "strasse": "Altheim Str. 20",
+      "plz": "60431",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 20735626",
+      "email": "info@praxis-dr-yener.de",
+      "website": "https://www.praxis-dr-yener.de",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1565968,
+      "lng": 8.6562997
+    },
+    {
+      "name": "Özlem Celebi",
+      "strasse": "Küferstraße 10",
+      "plz": "65931",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0155 60622006",
+      "email": "info@praxis-celebi.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0807295,
+      "lng": 8.5158812
+    },
+    {
+      "name": "Özlem Kanal",
+      "strasse": "Sonnenberger Straße 68",
+      "plz": "65193",
+      "ort": "Wiesbaden",
+      "bundesland": "Hessen",
+      "telefon": "0611 73287777",
+      "email": "",
+      "website": "http://www.praxis-kanal.de",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0875391,
+      "lng": 8.2568148
+    },
+    {
+      "name": "Philipp Kent",
+      "strasse": "Bahnhofstraße 24",
+      "plz": "65428",
+      "ort": "Rüsselsheim",
+      "bundesland": "Hessen",
+      "telefon": "",
+      "email": "",
+      "website": "https://www.doctolib.de/psychiatrie-und-psychotherapie/mainz/philipp-kent",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.9935442,
+      "lng": 8.4144007
+    },
+    {
+      "name": "PsAG Köln/Düsseldorf",
+      "strasse": "Riehler Str. 23",
+      "plz": "50668",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.psychoanalyse-koeln.org",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.9524418,
+      "lng": 6.960554
+    },
+    {
+      "name": "Psychologische Psychotherapie JLU Gießen",
+      "strasse": "Südanlage 30",
+      "plz": "35390",
+      "ort": "Gießen",
+      "bundesland": "Hessen",
+      "telefon": "0641 9926500",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.5819099,
+      "lng": 8.67099
+    },
+    {
+      "name": "Psychotherapie-Akademie Hessen",
+      "strasse": "Ludwigstraße 76",
+      "plz": "35392",
+      "ort": "Gießen",
+      "bundesland": "Hessen",
+      "telefon": "0641 9945651",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.5769949,
+      "lng": 8.6701971
+    },
+    {
+      "name": "Rabia Keles Yüksel M.Sc.",
+      "strasse": "Nußbaumallee 2",
+      "plz": "64297",
+      "ort": "Darmstadt",
+      "bundesland": "Hessen",
+      "telefon": "06151 3841611",
+      "email": "praxis_keles@outlook.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 49.811723,
+      "lng": 8.6436717
+    },
+    {
+      "name": "RHAP Krefeld",
+      "strasse": "Ostwall 41",
+      "plz": "47798",
+      "ort": "Krefeld",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.rhap.org",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.3279144,
+      "lng": 6.5688651
+    },
+    {
+      "name": "Ruhr-Universität Bochum (RUB)",
+      "strasse": "Massenbergstr. 9-13",
+      "plz": "44787",
+      "ort": "Bochum",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.kli.psy.ruhr-uni-bochum.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.4807758,
+      "lng": 7.2214835
+    },
+    {
+      "name": "Sahar Sanaie",
+      "strasse": "Stadthof 1",
+      "plz": "63065",
+      "ort": "Offenbach am Main",
+      "bundesland": "Hessen",
+      "telefon": "0177 3227008",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1051887,
+      "lng": 8.7608443
+    },
+    {
+      "name": "Saideh Morabbi",
+      "strasse": "Bahnhofstr. 41",
+      "plz": "65185",
+      "ort": "Wiesbaden",
+      "bundesland": "Hessen",
+      "telefon": "0611 97452581",
+      "email": "",
+      "website": "https://www.psychotherapie-morabbi.de",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0759639,
+      "lng": 8.2423223
+    },
+    {
+      "name": "Seda Temur",
+      "strasse": "Gartenstr. 81",
+      "plz": "60596",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 95518623",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.10091,
+      "lng": 8.6734941
+    },
+    {
+      "name": "Seher Asar",
+      "strasse": "Steinstraße 62",
+      "plz": "81667",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "089 48950405",
+      "email": "",
+      "website": "https://www.arzt-auskunft.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.129804,
+      "lng": 11.594766
+    },
+    {
+      "name": "Selma Özbas",
+      "strasse": "Eibenweg 1",
+      "plz": "89275",
+      "ort": "Elchingen",
+      "bundesland": "Bayern",
+      "telefon": "07308 8063174",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.4520965,
+      "lng": 10.0801659
+    },
+    {
+      "name": "Sema Ley",
+      "strasse": "Waltherstraße 29",
+      "plz": "80337",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "089 67378632",
+      "email": "",
+      "website": "https://therapie-ley.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.128829,
+      "lng": 11.559358
+    },
+    {
+      "name": "Senay Heidenreich",
+      "strasse": "Morgensternstr. 37",
+      "plz": "60596",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 86091898, 0163 3120185",
+      "email": "senaysentuerk@hotmail.com",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene",
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 50.1008005,
+      "lng": 8.6789878
+    },
+    {
+      "name": "Seray Demir",
+      "strasse": "Bahnhofstr. 126",
+      "plz": "47137",
+      "ort": "Duisburg",
+      "bundesland": "NRW",
+      "telefon": "01520 5401125",
+      "email": "info@praxis-pp.de",
+      "website": "www.praxis-pp.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.4654746,
+      "lng": 6.7783506
+    },
+    {
+      "name": "Sevda Gürses",
+      "strasse": "Am Stadtzentrum 2 A",
+      "plz": "65479",
+      "ort": "Raunheim",
+      "bundesland": "Hessen",
+      "telefon": "06142 15887",
+      "email": "sevda.guerses@praxis-fuer-seelische-gesundheit-ruesselsheim.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.0090244,
+      "lng": 8.4506323
+    },
+    {
+      "name": "Sevda Kenanoglu M. Sc.",
+      "strasse": "Ludwigstraße 20",
+      "plz": "61231",
+      "ort": "Bad Nauheim",
+      "bundesland": "Hessen",
+      "telefon": "0152 24029014",
+      "email": "praxis@kenanoglu.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.3672686,
+      "lng": 8.7435491
+    },
+    {
+      "name": "Sevgi Meddur-Gleissner",
+      "strasse": "Neumannstr. 17",
+      "plz": "60433",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 95520692",
+      "email": "praxis.smeddur@t-online.de",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1491216,
+      "lng": 8.666134
+    },
+    {
+      "name": "Sevim Pantiroglu",
+      "strasse": "Amselstr. 62",
+      "plz": "45772",
+      "ort": "Marl",
+      "bundesland": "NRW",
+      "telefon": "02365 3836923",
+      "email": "",
+      "website": "https://www.praxis-pantiroglu.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.6842898,
+      "lng": 7.1312625
+    },
+    {
+      "name": "Seziyan Yesilcimen",
+      "strasse": "Kurstraße 9",
+      "plz": "61231",
+      "ort": "Bad Nauheim",
+      "bundesland": "Hessen",
+      "telefon": "06032 8048971",
+      "email": "info@kjp-praxis-yesilcimen.de",
+      "website": "http://www.kjp-praxis-yesilcimen.de",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.3647319,
+      "lng": 8.7405693
+    },
+    {
+      "name": "Shahin Jafari",
+      "strasse": "Speierlingweg 2",
+      "plz": "60388",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "06109 376628",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1541026,
+      "lng": 8.7633909
+    },
+    {
+      "name": "Sonay Straßheim",
+      "strasse": "Ernst-Giller-Str. 20",
+      "plz": "35039",
+      "ort": "Marburg",
+      "bundesland": "Hessen",
+      "telefon": "0151 63451992",
+      "email": "strassheim@psychotherapiefürkinderundjugendliche.de",
+      "website": "https://www.psychotherapie-marburg.de",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.8205745,
+      "lng": 8.7720568
+    },
+    {
+      "name": "Songün Demirol-Yilmaz",
+      "strasse": "Salierring 11",
+      "plz": "50677",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0151 72260208",
+      "email": "",
+      "website": "www.praxis-dynamis.de",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.9265143,
+      "lng": 6.9454868
+    },
+    {
+      "name": "Sosyale Palmieri",
+      "strasse": "Raimundstr. 130",
+      "plz": "60320",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "0155 66446359",
+      "email": "",
+      "website": "selbstsinn-dornbusch.com",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.1384473,
+      "lng": 8.6650499
+    },
+    {
+      "name": "Suzi Diyaboglu",
+      "strasse": "Schulstraße 11",
+      "plz": "50997",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "0163 8688662",
+      "email": "",
+      "website": "https://www.freiefalter.de/",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 50.86141,
+      "lng": 6.92823
+    },
+    {
+      "name": "Tülin Yigit",
+      "strasse": "An den Emscherauen 5",
+      "plz": "44263",
+      "ort": "Dortmund",
+      "bundesland": "NRW",
+      "telefon": "0176 43635206",
+      "email": "",
+      "website": "www.gluecksformel.com",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Privat"
+      ],
+      "lat": 51.4923372,
+      "lng": 7.5095039
+    },
+    {
+      "name": "Universität Siegen (USI)",
+      "strasse": "Adolf-Reichwein-Str. 2",
+      "plz": "57076",
+      "ort": "Siegen",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.9094975,
+      "lng": 8.0271026
+    },
+    {
+      "name": "Verhaltenstherapie Ambulanz Five Amb",
+      "strasse": "Reuterweg 51-53",
+      "plz": "60323",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 714086013",
+      "email": "",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.1203407,
+      "lng": 8.6704917
+    },
+    {
+      "name": "WGI Köln",
+      "strasse": "Riehler Straße 21",
+      "plz": "50668",
+      "ort": "Köln",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.wgi-institut.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.9522884,
+      "lng": 6.9603102
+    },
+    {
+      "name": "Wiesbadener Akademie für Psychotherapie",
+      "strasse": "Luisenstraße 28",
+      "plz": "65185",
+      "ort": "Wiesbaden",
+      "bundesland": "Hessen",
+      "telefon": "0611 4503410",
+      "email": "therapiezentrum@wiap.de",
+      "website": "",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.0789641,
+      "lng": 8.2407687
+    },
+    {
+      "name": "Yasemin Elgün",
+      "strasse": "Hausertorstraße 47 A",
+      "plz": "35578",
+      "ort": "Wetzlar",
+      "bundesland": "Hessen",
+      "telefon": "06441 8977707",
+      "email": "info@praxis-elgun.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.5586364,
+      "lng": 8.5020296
+    },
+    {
+      "name": "Zehra Papas",
+      "strasse": "Agnesstraße 46 A",
+      "plz": "80798",
+      "ort": "München",
+      "bundesland": "Bayern",
+      "telefon": "089 74835900",
+      "email": "",
+      "website": "https://www.therapie.de/profil/papas/",
+      "zielgruppe": [
+        "Kinder & Jugendliche"
+      ],
+      "finanzierung": [
+        "Kasse",
+        "Privat"
+      ],
+      "lat": 48.1585521,
+      "lng": 11.5652274
+    },
+    {
+      "name": "Zeynep Baraz Kalayci",
+      "strasse": "Friedensstraße 3",
+      "plz": "60311",
+      "ort": "Frankfurt am Main",
+      "bundesland": "Hessen",
+      "telefon": "069 27221978",
+      "email": "info@praxisdrbaraz.de",
+      "website": "",
+      "zielgruppe": [
+        "Erwachsene"
+      ],
+      "finanzierung": [
+        "Kasse"
+      ],
+      "lat": 50.1097899,
+      "lng": 8.6748283
+    },
+    {
+      "name": "ZfP Bonn (DGVT)",
+      "strasse": "Oxfordstr. 12-16",
+      "plz": "53111",
+      "ort": "Bonn",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.ausbildungszentrum-bonn.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 50.7375859,
+      "lng": 7.0992885
+    },
+    {
+      "name": "ZPT Dortmund (DGVT)",
+      "strasse": "Chemnitzer Str. 38",
+      "plz": "44139",
+      "ort": "Dortmund",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.pab-info.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.5075551,
+      "lng": 7.4642698
+    },
+    {
+      "name": "ZPT Münster (DGVT)",
+      "strasse": "Wolbecker Str. 138",
+      "plz": "48155",
+      "ort": "Münster",
+      "bundesland": "NRW",
+      "telefon": "",
+      "email": "",
+      "website": "www.pab-info.de",
+      "zielgruppe": [
+        "Institut"
+      ],
+      "finanzierung": [
+        "Ausbildungsinstitut"
+      ],
+      "lat": 51.954686,
+      "lng": 7.6514036
+    }
+  ]
+}
