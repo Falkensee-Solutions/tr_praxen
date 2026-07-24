@@ -1,18 +1,17 @@
 /* ============================================================
    Therapiepraxen-Karte – App-Logik
-   Leaflet + MarkerCluster, Liste<->Karte-Synchronisation,
-   Filter (Bundesland, Zielgruppe, Finanzierung) + Freitextsuche.
-   Inklusive Deutsch / Türkisch Übersetzung!
+   TÜM SAYFA ÇEVİRİSİ (HTML + App) - Standart Dil: Türkçe
    ============================================================ */
 
 (function () {
   "use strict";
 
   // --- ÜBERSETZUNGS-LOGIK (i18n) ---
-  let currentLang = "tr"; // Standard-Sprache
+  let currentLang = "tr"; // Sayfa ilk açıldığında Türkçe
 
   const i18n = {
     de: {
+      // App İçi (Harita, Butonlar vb.)
       btnToggleLang: "🇹🇷 Türkçe",
       routePop: "📍 Route planen",
       call: "☎ Anrufen",
@@ -23,10 +22,39 @@
       showList: "Liste anzeigen",
       showMap: "Karte anzeigen",
       loadError: "Daten konnten nicht geladen werden.",
-      // Falls du auch Filter-Tags übersetzen willst, kannst du sie hier eintragen:
-      // z.B. "Kinder": "Çocuklar"
+      
+      // HTML Sayfa İçi Yazılar
+      navHome: "Home",
+      navAbout: "Über mich",
+      navOffer: "Behandlungsangebot",
+      navSingle: "Einzeltherapie",
+      navGroup: "Gruppentherapie",
+      navCouple: "Paartherapie",
+      navCosts: "Kosten",
+      navTurkish: "Türkçe",
+      navContact: "Kontakt",
+      navPrivacy: "Datenschutz",
+      navImprint: "Impressum",
+
+      pageTitle: "Therapiepraxen in Ihrer Nähe",
+      pageDesc: "Auf dieser Karte finden Sie muttersprachliche Psychotherapiepraxen in Deutschland. Nutzen Sie die Suche und die Filter, um Praxen nach Region, Zielgruppe und Finanzierung zu finden. Zoomen Sie in die Karte hinein oder klicken Sie auf einen Eintrag in der Liste, um Details und Kontaktmöglichkeiten zu sehen.",
+      searchPlaceholder: "Name, Ort oder PLZ suchen…",
+      allStates: "Alle Bundesländer",
+      resetFilters: "Filter zurücksetzen",
+      emptyList: "Keine Praxen entsprechen Ihren Filtern.",
+      
+      contactRole1: "Psychologischer Psychotherapeut",
+      contactRole2: "Verhaltenstherapie",
+      contactRole3: "Praxis für Psychotherapie",
+      contactMap: "Karte anzeigen",
+      contactHeader: "Kontakt",
+      
+      // JSON'dan gelen filtre etiketleri Almanca kalsın istenirse:
+      // "Kinder": "Kinder", 
+      // "Erwachsene": "Erwachsene"
     },
     tr: {
+      // App İçi (Harita, Butonlar vb.)
       btnToggleLang: "🇩🇪 Deutsch",
       routePop: "📍 Yol tarifi al",
       call: "☎ Ara",
@@ -37,61 +65,109 @@
       showList: "Listeyi göster",
       showMap: "Haritayı göster",
       loadError: "Veriler yüklenemedi.",
+      
+      // HTML Sayfa İçi Yazılar
+      navHome: "Ana Sayfa",
+      navAbout: "Hakkımda",
+      navOffer: "Tedavi Seçenekleri",
+      navSingle: "Bireysel Terapi",
+      navGroup: "Grup Terapisi",
+      navCouple: "Çift Terapisi",
+      navCosts: "Ücretler",
+      navTurkish: "Türkçe",
+      navContact: "İletişim",
+      navPrivacy: "Gizlilik Politikası",
+      navImprint: "Künye",
+
+      pageTitle: "Yakınınızdaki Terapi Muayenehaneleri",
+      pageDesc: "Bu haritada Almanya'daki anadilinizde hizmet veren psikoterapi muayenehanelerini bulabilirsiniz. Arama ve filtreleri kullanarak bölgeye, hedef kitleye ve finansman seçeneklerine göre muayenehaneleri listeleyin. Detayları ve iletişim bilgilerini görmek için haritayı yakınlaştırın veya listedeki bir kayda tıklayın.",
+      searchPlaceholder: "İsim, şehir veya posta kodu ara…",
+      allStates: "Tüm Eyaletler",
+      resetFilters: "Filtreleri sıfırla",
+      emptyList: "Bu kriterlere uygun muayenehane bulunamadı.",
+
+      contactRole1: "Uzman Psikolog Psikoterapist",
+      contactRole2: "Bilişsel Davranışçı Terapi",
+      contactRole3: "Psikoterapi Muayenehanesi",
+      contactMap: "Haritada göster",
+      contactHeader: "İletişim",
+      
+      // JSON'dan gelen filtreleri de Türkçeye çevirmek isterseniz buraya yazabilirsiniz:
+      "Erwachsene": "Yetişkinler",
+      "Kinder": "Çocuklar",
+      "Jugendliche": "Gençler",
+      "Gesetzliche Krankenkasse": "Devlet Sigortası",
+      "Private Krankenkasse": "Özel Sigorta",
+      "Selbstzahler": "Kendi Ödeyenler"
     }
   };
 
-  // Hilfsfunktion zum Abrufen der übersetzten Texte
   function t(key) {
     return i18n[currentLang][key] || key;
   }
 
-  // --- SPRACH-BUTTON ERSTELLEN ---
+  // --- HTML SABİT YAZILARI ÇEVİRME ---
+  function translateStaticHTML() {
+    document.documentElement.lang = currentLang; // Sayfa dil etiketini güncelle
+    
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      if (i18n[currentLang][key]) {
+        el.textContent = i18n[currentLang][key]; // innerHTML yerine textContent (span oklarını bozmaz)
+      }
+    });
+
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-placeholder");
+      if (i18n[currentLang][key]) {
+        el.placeholder = i18n[currentLang][key];
+      }
+    });
+  }
+
+  // --- DİL BUTONUNU OLUŞTURMA ---
   function setupLanguageButton() {
     const langBtn = document.createElement("button");
     langBtn.id = "translateBtn";
-    langBtn.className = "lang-toggle-btn"; // Für CSS (siehe unten)
+    langBtn.className = "lang-toggle-btn"; 
     langBtn.textContent = t("btnToggleLang");
     
     langBtn.addEventListener("click", () => {
-      // Sprache wechseln
       currentLang = currentLang === "de" ? "tr" : "de";
       langBtn.textContent = t("btnToggleLang");
-      
-      // Gesamte UI neu rendern mit neuer Sprache
       refreshUI();
     });
 
-    // Button in den Header oder ans Ende vom Body hängen
     document.body.appendChild(langBtn);
   }
 
-  // UI Aktualisieren nach Sprachwechsel
+  // Dil değiştiğinde tüm arayüzü yenile
   function refreshUI() {
-    // 1. Alle Marker auf der Karte löschen
+    translateStaticHTML();
+
     cluster.clearLayers();
     state.markers.clear();
-    
-    // 2. Marker mit neuer Sprache neu bauen
     buildMarkers();
     
-    // 3. Filter und Liste neu anwenden
+    const chipZ = document.getElementById("chipZielgruppe");
+    const chipF = document.getElementById("chipFinanzierung");
+    if(chipZ) chipZ.innerHTML = "";
+    if(chipF) chipF.innerHTML = "";
+    buildFilterUI(); 
+
     applyFilters();
-    
-    // 4. Mobile Buttons aktualisieren
     syncToggleLabel();
   }
 
-
-  // Embed-Modus (?embed=1) -> Header/Intro/Kontakt ausblenden
   const params = new URLSearchParams(window.location.search);
   if (params.get("embed") === "1") {
     document.body.classList.add("embed");
   }
 
   const state = {
-    all: [],          // alle Praxen
-    filtered: [],     // aktuell sichtbare Praxen
-    markers: new Map(), // id -> Leaflet-Marker
+    all: [],          
+    filtered: [],     
+    markers: new Map(), 
     activeId: null,
     filters: {
       search: "",
@@ -101,13 +177,11 @@
     },
   };
 
-  // ------------------------- Karte -------------------------
   const map = L.map("map", { scrollWheelZoom: true }).setView([51.1, 10.2], 6);
 
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende',
+    attribution: '&copy; OpenStreetMap-Mitwirkende',
   }).addTo(map);
 
   const cluster = L.markerClusterGroup({
@@ -117,8 +191,6 @@
   });
   map.addLayer(cluster);
 
-  // ------------------------- Hilfsfunktionen -------------------------
-  
   function getDisplayName(p) {
     if (p.name) return p.name;
     return [p.anrede, p.vorname, p.nachname].filter(Boolean).join(" ");
@@ -158,7 +230,6 @@
     return `https://www.google.com/maps/search/?api=1&query=${q}`;
   }
 
-  // ------------------------- Popups & Karten-Inhalte -------------------------
   function popupHtml(p) {
     const rows = [];
     rows.push(`<h3>${escapeHtml(getDisplayName(p))}</h3>`);
@@ -173,7 +244,6 @@
       const u = normalizeUrl(p.website);
       rows.push(`<a href="${escapeHtml(u)}" target="_blank" rel="noopener">🌐 ${escapeHtml(displayUrl(p.website))}</a>`);
     }
-    // HIER WIRD ÜBERSETZT:
     rows.push(`<a href="${escapeHtml(mapsLink(p))}" target="_blank" rel="noopener">${t("routePop")}</a>`);
     rows.push(`</div>`);
     return `<div class="popup">${rows.join("")}</div>`;
@@ -181,20 +251,16 @@
 
   function cardHtml(p) {
     const tags = [...(p.zielgruppe || []), ...(p.finanzierung || [])]
-      // Auch hier könnten Tags mit t(t) übersetzt werden, falls im Wörterbuch hinterlegt:
-      .map((tag) => `<span class="tag">${escapeHtml(i18n[currentLang][tag] || tag)}</span>`)
+      .map((tag) => `<span class="tag">${escapeHtml(t(tag))}</span>`)
       .join("");
     const actions = [];
     if (p.telefon) {
       const tel = p.telefon.split(",")[0].trim();
-      // HIER WIRD ÜBERSETZT:
       actions.push(`<a href="tel:${escapeHtml(tel.replace(/\s/g, ""))}" onclick="event.stopPropagation()">${t("call")}</a>`);
     }
     if (p.website) {
-      // HIER WIRD ÜBERSETZT:
       actions.push(`<a href="${escapeHtml(normalizeUrl(p.website))}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${t("website")}</a>`);
     }
-    // HIER WIRD ÜBERSETZT:
     actions.push(`<a href="${escapeHtml(mapsLink(p))}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${t("routeCard")}</a>`);
 
     return `
@@ -205,7 +271,6 @@
     `;
   }
 
-  // ------------------------- Marker -------------------------
   function buildMarkers() {
     state.all.forEach((p) => {
       const marker = L.marker([p.lat, p.lng], { title: getDisplayName(p) });
@@ -215,7 +280,6 @@
     });
   }
 
-  // ------------------------- Liste -------------------------
   const listEl = document.getElementById("practiceList");
   const emptyEl = document.getElementById("listEmpty");
   const countEl = document.getElementById("resultCount");
@@ -224,6 +288,7 @@
     listEl.innerHTML = "";
     if (state.filtered.length === 0) {
       emptyEl.hidden = false;
+      emptyEl.textContent = t("emptyList");
     } else {
       emptyEl.hidden = true;
       const frag = document.createDocumentFragment();
@@ -240,8 +305,7 @@
       listEl.appendChild(frag);
     }
     const n = state.filtered.length;
-    // HIER WIRD ÜBERSETZT:
-    countEl.textContent = `${n} ${n === 1 ? t("practiceSingle") : t("practicePlural")}`;
+    if(countEl) countEl.textContent = `${n} ${n === 1 ? t("practiceSingle") : t("practicePlural")}`;
   }
 
   function highlightMarker(id, on) {
@@ -251,30 +315,24 @@
     if (el) el.style.filter = on ? "hue-rotate(150deg) saturate(2)" : "";
   }
 
-  // ------------------------- Aktivierung (Sync Liste<->Karte) -------------------------
   function setActive(id, opts = {}) {
     state.activeId = id;
-
     listEl.querySelectorAll(".practice-card").forEach((c) => {
       c.classList.toggle("active", c.dataset.id === id);
     });
-
     const p = state.all.find((x) => x._id === id);
     const marker = state.markers.get(id);
     if (!p || !marker) return;
-
     if (opts.fromCard) {
       map.setView([p.lat, p.lng], Math.max(map.getZoom(), 13), { animate: true });
       cluster.zoomToShowLayer(marker, () => marker.openPopup());
     }
-
     if (opts.fromMarker) {
       const card = listEl.querySelector(`.practice-card[data-id="${CSS.escape(id)}"]`);
       if (card) card.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
   }
 
-  // ------------------------- Filter -------------------------
   function applyFilters() {
     const { search, bundesland, zielgruppe, finanzierung } = state.filters;
     const q = search.trim().toLowerCase();
@@ -302,7 +360,7 @@
   function updateResetVisibility() {
     const f = state.filters;
     const active = f.search || f.bundesland || f.zielgruppe.size || f.finanzierung.size;
-    resetBtn.hidden = !active;
+    if(resetBtn) resetBtn.hidden = !active;
   }
 
   function fitToVisible() {
@@ -313,7 +371,6 @@
     map.fitBounds(bounds, { padding: [40, 40], maxZoom: 14 });
   }
 
-  // ------------------------- Filter-UI aufbauen -------------------------
   const searchInput = document.getElementById("searchInput");
   const bundeslandSel = document.getElementById("filterBundesland");
   const chipZ = document.getElementById("chipZielgruppe");
@@ -331,15 +388,17 @@
   }
 
   function buildFilterUI() {
-    uniqueSorted("bundesland").forEach((b) => {
-      const opt = document.createElement("option");
-      opt.value = b;
-      opt.textContent = b;
-      bundeslandSel.appendChild(opt);
-    });
+    if (bundeslandSel && bundeslandSel.options.length <= 1) {
+      uniqueSorted("bundesland").forEach((b) => {
+        const opt = document.createElement("option");
+        opt.value = b;
+        opt.textContent = b;
+        bundeslandSel.appendChild(opt);
+      });
+    }
 
-    buildChips(chipZ, uniqueSorted("zielgruppe"), state.filters.zielgruppe);
-    buildChips(chipF, uniqueSorted("finanzierung"), state.filters.finanzierung);
+    if(chipZ) buildChips(chipZ, uniqueSorted("zielgruppe"), state.filters.zielgruppe);
+    if(chipF) buildChips(chipF, uniqueSorted("finanzierung"), state.filters.finanzierung);
   }
 
   function buildChips(container, values, targetSet) {
@@ -347,11 +406,11 @@
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "chip";
-      // Übersetzung für Chip-Texte (falls im Wörterbuch, sonst Original)
-      btn.textContent = i18n[currentLang][val] || val;
+      btn.textContent = t(val); 
       btn.dataset.originalValue = val; 
       
-      btn.setAttribute("aria-pressed", "false");
+      btn.setAttribute("aria-pressed", targetSet.has(val) ? "true" : "false");
+      
       btn.addEventListener("click", () => {
         if (targetSet.has(val)) {
           targetSet.delete(val);
@@ -367,40 +426,46 @@
   }
 
   let searchTimer;
-  searchInput.addEventListener("input", () => {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => {
-      state.filters.search = searchInput.value;
+  if(searchInput) {
+    searchInput.addEventListener("input", () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        state.filters.search = searchInput.value;
+        applyFilters();
+      }, 180);
+    });
+  }
+
+  if(bundeslandSel) {
+    bundeslandSel.addEventListener("change", () => {
+      state.filters.bundesland = bundeslandSel.value;
       applyFilters();
-    }, 180);
-  });
+    });
+  }
 
-  bundeslandSel.addEventListener("change", () => {
-    state.filters.bundesland = bundeslandSel.value;
-    applyFilters();
-  });
+  if(resetBtn) {
+    resetBtn.addEventListener("click", () => {
+      state.filters.search = "";
+      state.filters.bundesland = "";
+      state.filters.zielgruppe.clear();
+      state.filters.finanzierung.clear();
+      if(searchInput) searchInput.value = "";
+      if(bundeslandSel) bundeslandSel.value = "";
+      document.querySelectorAll(".chip[aria-pressed='true']").forEach((c) =>
+        c.setAttribute("aria-pressed", "false")
+      );
+      applyFilters();
+    });
+  }
 
-  resetBtn.addEventListener("click", () => {
-    state.filters.search = "";
-    state.filters.bundesland = "";
-    state.filters.zielgruppe.clear();
-    state.filters.finanzierung.clear();
-    searchInput.value = "";
-    bundeslandSel.value = "";
-    document.querySelectorAll(".chip[aria-pressed='true']").forEach((c) =>
-      c.setAttribute("aria-pressed", "false")
-    );
-    applyFilters();
-  });
-
-  // ------------------------- Mobile: Ansicht umschalten -------------------------
   const viewToggle = document.getElementById("viewToggle");
   const mobileQuery = window.matchMedia("(max-width: 900px)");
 
   function syncToggleLabel() {
     const showMap = document.body.classList.contains("show-map");
-    // HIER WIRD ÜBERSETZT:
-    viewToggle.textContent = showMap ? t("showList") : t("showMap");
+    if (viewToggle) {
+        viewToggle.textContent = showMap ? t("showList") : t("showMap");
+    }
   }
 
   function applyMobileDefault() {
@@ -414,17 +479,19 @@
     }
   }
 
-  viewToggle.addEventListener("click", () => {
-    document.body.dataset.userToggled = "1";
-    const showMap = document.body.classList.toggle("show-map");
-    syncToggleLabel();
-    if (showMap) {
-      setTimeout(() => {
-        map.invalidateSize();
-        fitToVisible();
-      }, 60);
-    }
-  });
+  if (viewToggle) {
+      viewToggle.addEventListener("click", () => {
+        document.body.dataset.userToggled = "1";
+        const showMap = document.body.classList.toggle("show-map");
+        syncToggleLabel();
+        if (showMap) {
+          setTimeout(() => {
+            map.invalidateSize();
+            fitToVisible();
+          }, 60);
+        }
+      });
+  }
 
   if (mobileQuery.addEventListener) {
     mobileQuery.addEventListener("change", () => {
@@ -435,7 +502,6 @@
     });
   }
 
-  // ------------------------- Filterleiste: Scroll-Hinweis (mobil) -------------------------
   const filterBar = document.getElementById("filterBar");
   const filterInner = document.querySelector(".filter-bar-inner");
 
@@ -470,12 +536,12 @@
     });
   }
 
-  // ------------------------- Initialisierung -------------------------
-  
-  // Sprach-Button initialisieren
+  // Initialisierung
   setupLanguageButton();
+  
+  // Yükleme başladığı an her şeyi Türkçeye çevir!
+  translateStaticHTML();
 
-  // Daten laden
   fetch("data/practices.json", { cache: "no-cache" })
     .then((res) => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -491,8 +557,7 @@
       hintFilterScroll();
     })
     .catch((err) => {
-      // HIER WIRD ÜBERSETZT:
-      countEl.textContent = t("loadError");
+      if (countEl) countEl.textContent = t("loadError");
       console.error("Laden fehlgeschlagen:", err);
     });
 })();

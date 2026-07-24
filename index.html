@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="tr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,22 +34,24 @@
 
       <nav class="site-nav" id="siteNav" aria-label="Hauptmenü">
         <ul class="main-menu">
-          <li><a href="https://www.praxis-cebi.de/">Home</a></li>
-          <li><a href="https://www.praxis-cebi.de/?page_id=23">Über mich</a></li>
+          <li><a href="https://www.praxis-cebi.de/" data-i18n="navHome">Home</a></li>
+          <li><a href="https://www.praxis-cebi.de/?page_id=23" data-i18n="navAbout">Über mich</a></li>
           <li class="has-children">
-            <a href="https://www.praxis-cebi.de/?page_id=25">Behandlungsangebot
-              <span class="nav-arrow" aria-hidden="true">▾</span></a>
+            <a href="https://www.praxis-cebi.de/?page_id=25">
+              <span data-i18n="navOffer">Behandlungsangebot</span>
+              <span class="nav-arrow" aria-hidden="true">▾</span>
+            </a>
             <ul class="sub-menu">
-              <li><a href="https://www.praxis-cebi.de/?page_id=256">Einzeltherapie</a></li>
-              <li><a href="https://www.praxis-cebi.de/?page_id=251">Gruppentherapie</a></li>
-              <li><a href="https://www.praxis-cebi.de/?page_id=259">Paartherapie</a></li>
-              <li><a href="https://www.praxis-cebi.de/?page_id=166">Kosten</a></li>
-              <li><a href="https://www.praxis-cebi.de/?page_id=552">Türkçe</a></li>
+              <li><a href="https://www.praxis-cebi.de/?page_id=256" data-i18n="navSingle">Einzeltherapie</a></li>
+              <li><a href="https://www.praxis-cebi.de/?page_id=251" data-i18n="navGroup">Gruppentherapie</a></li>
+              <li><a href="https://www.praxis-cebi.de/?page_id=259" data-i18n="navCouple">Paartherapie</a></li>
+              <li><a href="https://www.praxis-cebi.de/?page_id=166" data-i18n="navCosts">Kosten</a></li>
+              <li><a href="https://www.praxis-cebi.de/?page_id=552" data-i18n="navTurkish">Türkçe</a></li>
             </ul>
           </li>
-          <li><a href="https://www.praxis-cebi.de/?page_id=21">Kontakt</a></li>
-          <li><a href="https://www.praxis-cebi.de/?page_id=170">Datenschutz</a></li>
-          <li><a href="https://www.praxis-cebi.de/?page_id=168">Impressum</a></li>
+          <li><a href="https://www.praxis-cebi.de/?page_id=21" data-i18n="navContact">Kontakt</a></li>
+          <li><a href="https://www.praxis-cebi.de/?page_id=170" data-i18n="navPrivacy">Datenschutz</a></li>
+          <li><a href="https://www.praxis-cebi.de/?page_id=168" data-i18n="navImprint">Impressum</a></li>
         </ul>
       </nav>
     </div>
@@ -58,8 +60,8 @@
   <!-- ======================= Intro ======================= -->
   <section class="intro" id="intro">
     <div class="intro-inner">
-      <h1>Therapiepraxen in Ihrer Nähe</h1>
-      <p>
+      <h1 data-i18n="pageTitle">Therapiepraxen in Ihrer Nähe</h1>
+      <p data-i18n="pageDesc">
         Auf dieser Karte finden Sie muttersprachliche Psychotherapiepraxen in Deutschland.
         Nutzen Sie die Suche und die Filter, um Praxen nach Region, Zielgruppe und
         Finanzierung zu finden. Zoomen Sie in die Karte hinein oder klicken Sie auf einen
@@ -75,18 +77,18 @@
         <svg viewBox="0 0 24 24" aria-hidden="true" class="search-icon">
           <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/>
         </svg>
-        <input type="search" id="searchInput" placeholder="Name, Ort oder PLZ suchen…"
+        <input type="search" id="searchInput" data-i18n-placeholder="searchPlaceholder" placeholder="Name, Ort oder PLZ suchen…"
           autocomplete="off" aria-label="Praxen durchsuchen" />
       </div>
 
       <select id="filterBundesland" class="filter-select" aria-label="Bundesland filtern">
-        <option value="">Alle Bundesländer</option>
+        <option value="" data-i18n="allStates">Alle Bundesländer</option>
       </select>
 
       <div class="chip-group" id="chipZielgruppe" role="group" aria-label="Zielgruppe"></div>
       <div class="chip-group" id="chipFinanzierung" role="group" aria-label="Finanzierung"></div>
 
-      <button id="resetFilters" class="reset-btn" type="button" hidden>Filter zurücksetzen</button>
+      <button id="resetFilters" class="reset-btn" type="button" data-i18n="resetFilters" hidden>Filter zurücksetzen</button>
     </div>
   </div>
 
@@ -97,7 +99,7 @@
         <span id="resultCount" class="result-count">Praxen werden geladen…</span>
       </div>
       <ul class="practice-list" id="practiceList"></ul>
-      <p class="list-empty" id="listEmpty" hidden>Keine Praxen entsprechen Ihren Filtern.</p>
+      <p class="list-empty" id="listEmpty" data-i18n="emptyList" hidden>Keine Praxen entsprechen Ihren Filtern.</p>
     </section>
 
     <section class="map-pane" aria-label="Karte">
@@ -112,18 +114,18 @@
     <div class="contact-inner">
       <div class="contact-col">
         <h2><a href="https://www.praxis-cebi.de/?page_id=23">M. Sc. Esad Cebi</a></h2>
-        <p class="contact-role">Psychologischer Psychotherapeut</p>
-        <p class="contact-role">Verhaltenstherapie</p>
-        <p class="contact-role">Praxis für Psychotherapie</p>
+        <p class="contact-role" data-i18n="contactRole1">Psychologischer Psychotherapeut</p>
+        <p class="contact-role" data-i18n="contactRole2">Verhaltenstherapie</p>
+        <p class="contact-role" data-i18n="contactRole3">Praxis für Psychotherapie</p>
       </div>
       <div class="contact-col">
         <p class="contact-address">
           Von-Brentano-Str. 14<br />
           63073 Offenbach am Main<br />
-          <a href="https://goo.gl/maps/BW97UGwjE3dExjpcA" target="_blank" rel="noopener">Karte anzeigen</a>
+          <a href="https://goo.gl/maps/BW97UGwjE3dExjpcA" target="_blank" rel="noopener" data-i18n="contactMap">Karte anzeigen</a>
         </p>
         <p class="contact-details">
-          <strong>Kontakt</strong><br />
+          <strong data-i18n="contactHeader">Kontakt</strong><br />
           <a href="tel:+4915234752971">01523&nbsp;4752971</a><br />
           <a href="mailto:therapiepraxis.cebi@gmail.com">therapiepraxis.cebi@gmail.com</a>
         </p>
