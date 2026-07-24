@@ -43,6 +43,14 @@
   map.addLayer(cluster);
 
   // ------------------------- Hilfsfunktionen -------------------------
+  
+  // Hilfsfunktion: Setzt den Namen aus den drei neuen Spalten zusammen, 
+  // falls das Pre-Build "name" Feld fehlen sollte.
+  function getDisplayName(p) {
+    if (p.name) return p.name;
+    return [p.anrede, p.vorname, p.nachname].filter(Boolean).join(" ");
+  }
+
   function escapeHtml(str) {
     return String(str == null ? "" : str)
       .replace(/&/g, "&amp;")
@@ -61,7 +69,7 @@
   }
 
   function idFor(p, i) {
-    return `${i}-${p.plz}-${p.name}`.replace(/\s+/g, "_");
+    return `${i}-${p.plz}-${getDisplayName(p)}`.replace(/\s+/g, "_");
   }
 
   function fullAddress(p) {
@@ -80,7 +88,7 @@
   // ------------------------- Popups & Karten-Inhalte -------------------------
   function popupHtml(p) {
     const rows = [];
-    rows.push(`<h3>${escapeHtml(p.name)}</h3>`);
+    rows.push(`<h3>${escapeHtml(getDisplayName(p))}</h3>`);
     rows.push(`<p class="addr">${escapeHtml(fullAddress(p))}</p>`);
     rows.push(`<div class="popup-actions">`);
     if (p.telefon) {
@@ -112,7 +120,7 @@
     actions.push(`<a href="${escapeHtml(mapsLink(p))}" target="_blank" rel="noopener" onclick="event.stopPropagation()">📍 Route</a>`);
 
     return `
-      <h3>${escapeHtml(p.name)}</h3>
+      <h3>${escapeHtml(getDisplayName(p))}</h3>
       <p class="addr">${escapeHtml(fullAddress(p))}</p>
       ${tags ? `<div class="card-tags">${tags}</div>` : ""}
       <div class="card-actions">${actions.join("")}</div>
@@ -122,7 +130,7 @@
   // ------------------------- Marker -------------------------
   function buildMarkers() {
     state.all.forEach((p) => {
-      const marker = L.marker([p.lat, p.lng], { title: p.name });
+      const marker = L.marker([p.lat, p.lng], { title: getDisplayName(p) });
       marker.bindPopup(popupHtml(p));
       marker.on("click", () => setActive(p._id, { fromMarker: true }));
       state.markers.set(p._id, marker);
@@ -200,7 +208,8 @@
       if (zielgruppe.size && !(p.zielgruppe || []).some((z) => zielgruppe.has(z))) return false;
       if (finanzierung.size && !(p.finanzierung || []).some((f) => finanzierung.has(f))) return false;
       if (q) {
-        const hay = `${p.name} ${p.ort} ${p.plz} ${p.strasse} ${p.bundesland}`.toLowerCase();
+        // Such-String inklusive der neuen Felder aufbauen
+        const hay = `${getDisplayName(p)} ${p.vorname || ""} ${p.nachname || ""} ${p.ort} ${p.plz} ${p.strasse} ${p.bundesland}`.toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;

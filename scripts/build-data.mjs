@@ -129,9 +129,18 @@ async function main() {
 
   for (let r = 1; r < rows.length; r++) {
     const row = rows[r];
+    
+    // Die drei neuen Spalten auslesen
+    const anrede = col(row, "anrede");
+    const vorname = col(row, "vorname");
+    const nachname = col(row, "nachname");
+    
+    // Den vollen Namen für die spätere Anzeige / Validierung zusammensetzen
+    // .filter(Boolean) ignoriert leere Felder (z.B. wenn Anrede/Vorname bei einer Institution fehlen)
+    const name = [anrede, vorname, nachname].filter(Boolean).join(" ");
+
     const lat = parseCoord(col(row, "lat"));
     const lng = parseCoord(col(row, "lng"));
-    const name = col(row, "name");
 
     if (!name || lat == null || lng == null) {
       skipped++;
@@ -140,7 +149,10 @@ async function main() {
     }
 
     practices.push({
-      name,
+      anrede,
+      vorname,
+      nachname,
+      name, // Der zusammengesetzte Name als praktischer Fallback fürs Frontend
       strasse: col(row, "strasse"),
       plz: col(row, "plz"),
       ort: col(row, "ort"),
@@ -155,7 +167,12 @@ async function main() {
     });
   }
 
-  practices.sort((a, b) => a.name.localeCompare(b.name, "de"));
+  // Alphabetische Sortierung primär nach Nachname (da auch Institutionen im Nachnamen-Feld stehen)
+  practices.sort((a, b) => {
+    const sortA = a.nachname || a.name;
+    const sortB = b.nachname || b.name;
+    return sortA.localeCompare(sortB, "de");
+  });
 
   const output = {
     updatedAt: new Date().toISOString(),

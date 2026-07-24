@@ -7,9 +7,8 @@ on:
   workflow_dispatch: {}
   push:
     branches: [main]
-    paths:
-      - "scripts/build-data.mjs"
-      - "tr_praxen.csv"
+    # Die "paths"-Einschränkung wurde hier entfernt. 
+    # Dadurch läuft die Action nun nach JEDEM Push auf "main".
 
 permissions:
   contents: write
