@@ -315,6 +315,33 @@ a:hover { text-decoration: underline; }
   box-shadow: var(--shadow-hover);
 }
 
+/* ============================= Sprach-Button (Neu) ============================= */
+.lang-toggle-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1300; /* Auf gleicher Ebene wie mobile-view-toggle */
+  background: var(--accent); /* Nutzt deine Primärfarbe */
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-hover);
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.lang-toggle-btn:hover {
+  background: var(--accent-dark);
+  transform: translateY(-2px); /* Leichter Hover-Effekt nach oben */
+}
+
+.lang-toggle-btn:active {
+  transform: translateY(0);
+}
+
 /* Popups */
 .leaflet-popup-content { margin: 12px 14px; font-family: var(--font); }
 .popup h3 { margin: 0 0 6px; font-size: 15.5px; color: var(--accent-dark); }
@@ -454,6 +481,14 @@ body.embed .layout {
 
   .mobile-view-toggle { display: block; bottom: 16px; }
 
+  /* Sprach-Button auf Mobile anpassen */
+  .lang-toggle-btn {
+    bottom: 16px;
+    right: 16px;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
   /* Kontaktblock kompakter */
   .contact-inner { padding: 28px 20px; gap: 20px 32px; }
 }
@@ -461,4 +496,3 @@ body.embed .layout {
 @media (max-width: 560px) {
   .contact-inner { grid-template-columns: 1fr; gap: 18px; text-align: center; }
 }
-

@@ -2,10 +2,85 @@
    Therapiepraxen-Karte – App-Logik
    Leaflet + MarkerCluster, Liste<->Karte-Synchronisation,
    Filter (Bundesland, Zielgruppe, Finanzierung) + Freitextsuche.
+   Inklusive Deutsch / Türkisch Übersetzung!
    ============================================================ */
 
 (function () {
   "use strict";
+
+  // --- ÜBERSETZUNGS-LOGIK (i18n) ---
+  let currentLang = "tr"; // Standard-Sprache
+
+  const i18n = {
+    de: {
+      btnToggleLang: "🇹🇷 Türkçe",
+      routePop: "📍 Route planen",
+      call: "☎ Anrufen",
+      website: "🌐 Website",
+      routeCard: "📍 Route",
+      practiceSingle: "Praxis gefunden",
+      practicePlural: "Praxen gefunden",
+      showList: "Liste anzeigen",
+      showMap: "Karte anzeigen",
+      loadError: "Daten konnten nicht geladen werden.",
+      // Falls du auch Filter-Tags übersetzen willst, kannst du sie hier eintragen:
+      // z.B. "Kinder": "Çocuklar"
+    },
+    tr: {
+      btnToggleLang: "🇩🇪 Deutsch",
+      routePop: "📍 Yol tarifi al",
+      call: "☎ Ara",
+      website: "🌐 Web sitesi",
+      routeCard: "📍 Yol tarifi",
+      practiceSingle: "Muayenehane bulundu",
+      practicePlural: "Muayenehane bulundu", 
+      showList: "Listeyi göster",
+      showMap: "Haritayı göster",
+      loadError: "Veriler yüklenemedi.",
+    }
+  };
+
+  // Hilfsfunktion zum Abrufen der übersetzten Texte
+  function t(key) {
+    return i18n[currentLang][key] || key;
+  }
+
+  // --- SPRACH-BUTTON ERSTELLEN ---
+  function setupLanguageButton() {
+    const langBtn = document.createElement("button");
+    langBtn.id = "translateBtn";
+    langBtn.className = "lang-toggle-btn"; // Für CSS (siehe unten)
+    langBtn.textContent = t("btnToggleLang");
+    
+    langBtn.addEventListener("click", () => {
+      // Sprache wechseln
+      currentLang = currentLang === "de" ? "tr" : "de";
+      langBtn.textContent = t("btnToggleLang");
+      
+      // Gesamte UI neu rendern mit neuer Sprache
+      refreshUI();
+    });
+
+    // Button in den Header oder ans Ende vom Body hängen
+    document.body.appendChild(langBtn);
+  }
+
+  // UI Aktualisieren nach Sprachwechsel
+  function refreshUI() {
+    // 1. Alle Marker auf der Karte löschen
+    cluster.clearLayers();
+    state.markers.clear();
+    
+    // 2. Marker mit neuer Sprache neu bauen
+    buildMarkers();
+    
+    // 3. Filter und Liste neu anwenden
+    applyFilters();
+    
+    // 4. Mobile Buttons aktualisieren
+    syncToggleLabel();
+  }
+
 
   // Embed-Modus (?embed=1) -> Header/Intro/Kontakt ausblenden
   const params = new URLSearchParams(window.location.search);
@@ -44,8 +119,6 @@
 
   // ------------------------- Hilfsfunktionen -------------------------
   
-  // Hilfsfunktion: Setzt den Namen aus den drei neuen Spalten zusammen, 
-  // falls das Pre-Build "name" Feld fehlen sollte.
   function getDisplayName(p) {
     if (p.name) return p.name;
     return [p.anrede, p.vorname, p.nachname].filter(Boolean).join(" ");
@@ -100,24 +173,29 @@
       const u = normalizeUrl(p.website);
       rows.push(`<a href="${escapeHtml(u)}" target="_blank" rel="noopener">🌐 ${escapeHtml(displayUrl(p.website))}</a>`);
     }
-    rows.push(`<a href="${escapeHtml(mapsLink(p))}" target="_blank" rel="noopener">📍 Route planen</a>`);
+    // HIER WIRD ÜBERSETZT:
+    rows.push(`<a href="${escapeHtml(mapsLink(p))}" target="_blank" rel="noopener">${t("routePop")}</a>`);
     rows.push(`</div>`);
     return `<div class="popup">${rows.join("")}</div>`;
   }
 
   function cardHtml(p) {
     const tags = [...(p.zielgruppe || []), ...(p.finanzierung || [])]
-      .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
+      // Auch hier könnten Tags mit t(t) übersetzt werden, falls im Wörterbuch hinterlegt:
+      .map((tag) => `<span class="tag">${escapeHtml(i18n[currentLang][tag] || tag)}</span>`)
       .join("");
     const actions = [];
     if (p.telefon) {
       const tel = p.telefon.split(",")[0].trim();
-      actions.push(`<a href="tel:${escapeHtml(tel.replace(/\s/g, ""))}" onclick="event.stopPropagation()">☎ Anrufen</a>`);
+      // HIER WIRD ÜBERSETZT:
+      actions.push(`<a href="tel:${escapeHtml(tel.replace(/\s/g, ""))}" onclick="event.stopPropagation()">${t("call")}</a>`);
     }
     if (p.website) {
-      actions.push(`<a href="${escapeHtml(normalizeUrl(p.website))}" target="_blank" rel="noopener" onclick="event.stopPropagation()">🌐 Website</a>`);
+      // HIER WIRD ÜBERSETZT:
+      actions.push(`<a href="${escapeHtml(normalizeUrl(p.website))}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${t("website")}</a>`);
     }
-    actions.push(`<a href="${escapeHtml(mapsLink(p))}" target="_blank" rel="noopener" onclick="event.stopPropagation()">📍 Route</a>`);
+    // HIER WIRD ÜBERSETZT:
+    actions.push(`<a href="${escapeHtml(mapsLink(p))}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${t("routeCard")}</a>`);
 
     return `
       <h3>${escapeHtml(getDisplayName(p))}</h3>
@@ -162,7 +240,8 @@
       listEl.appendChild(frag);
     }
     const n = state.filtered.length;
-    countEl.textContent = `${n} ${n === 1 ? "Praxis" : "Praxen"} gefunden`;
+    // HIER WIRD ÜBERSETZT:
+    countEl.textContent = `${n} ${n === 1 ? t("practiceSingle") : t("practicePlural")}`;
   }
 
   function highlightMarker(id, on) {
@@ -176,7 +255,6 @@
   function setActive(id, opts = {}) {
     state.activeId = id;
 
-    // Karten hervorheben
     listEl.querySelectorAll(".practice-card").forEach((c) => {
       c.classList.toggle("active", c.dataset.id === id);
     });
@@ -186,13 +264,11 @@
     if (!p || !marker) return;
 
     if (opts.fromCard) {
-      // Zur Praxis zoomen und Popup öffnen
       map.setView([p.lat, p.lng], Math.max(map.getZoom(), 13), { animate: true });
       cluster.zoomToShowLayer(marker, () => marker.openPopup());
     }
 
     if (opts.fromMarker) {
-      // Zugehörige Karte in die Liste scrollen
       const card = listEl.querySelector(`.practice-card[data-id="${CSS.escape(id)}"]`);
       if (card) card.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
@@ -208,14 +284,12 @@
       if (zielgruppe.size && !(p.zielgruppe || []).some((z) => zielgruppe.has(z))) return false;
       if (finanzierung.size && !(p.finanzierung || []).some((f) => finanzierung.has(f))) return false;
       if (q) {
-        // Such-String inklusive der neuen Felder aufbauen
         const hay = `${getDisplayName(p)} ${p.vorname || ""} ${p.nachname || ""} ${p.ort} ${p.plz} ${p.strasse} ${p.bundesland}`.toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
     });
 
-    // Marker aktualisieren
     cluster.clearLayers();
     const layers = state.filtered.map((p) => state.markers.get(p._id)).filter(Boolean);
     cluster.addLayers(layers);
@@ -231,11 +305,10 @@
     resetBtn.hidden = !active;
   }
 
-  // Karte auf alle aktuell sichtbaren Praxen einpassen (nur wenn Karte sichtbar/gemessen)
   function fitToVisible() {
     if (!state.filtered.length) return;
     const size = map.getSize();
-    if (size.x === 0 || size.y === 0) return; // Karte (noch) versteckt
+    if (size.x === 0 || size.y === 0) return;
     const bounds = L.latLngBounds(state.filtered.map((p) => [p.lat, p.lng]));
     map.fitBounds(bounds, { padding: [40, 40], maxZoom: 14 });
   }
@@ -274,7 +347,10 @@
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "chip";
-      btn.textContent = val;
+      // Übersetzung für Chip-Texte (falls im Wörterbuch, sonst Original)
+      btn.textContent = i18n[currentLang][val] || val;
+      btn.dataset.originalValue = val; 
+      
       btn.setAttribute("aria-pressed", "false");
       btn.addEventListener("click", () => {
         if (targetSet.has(val)) {
@@ -290,7 +366,6 @@
     });
   }
 
-  // Debounce für die Suche
   let searchTimer;
   searchInput.addEventListener("input", () => {
     clearTimeout(searchTimer);
@@ -320,15 +395,14 @@
 
   // ------------------------- Mobile: Ansicht umschalten -------------------------
   const viewToggle = document.getElementById("viewToggle");
-
   const mobileQuery = window.matchMedia("(max-width: 900px)");
 
   function syncToggleLabel() {
     const showMap = document.body.classList.contains("show-map");
-    viewToggle.textContent = showMap ? "Liste anzeigen" : "Karte anzeigen";
+    // HIER WIRD ÜBERSETZT:
+    viewToggle.textContent = showMap ? t("showList") : t("showMap");
   }
 
-  // Auf dem Handy zuerst die Karte zeigen (kein Scrollen durch die Liste nötig)
   function applyMobileDefault() {
     if (mobileQuery.matches && !document.body.dataset.userToggled) {
       document.body.classList.add("show-map");
@@ -373,7 +447,6 @@
     filterBar.classList.toggle("scroll-end", !scrollable || atEnd);
   }
 
-  // Einmaliger dezenter "Anstupser", der zeigt: hier kann man scrollen
   function hintFilterScroll() {
     if (!filterInner || !mobileQuery.matches) return;
     if (filterInner.scrollWidth <= filterInner.clientWidth + 8) return;
@@ -388,7 +461,6 @@
     window.addEventListener("resize", updateFilterFade);
   }
 
-  // ------------------------- Header: Mobile-Menü -------------------------
   const menuToggle = document.getElementById("menuToggle");
   const siteNav = document.getElementById("siteNav");
   if (menuToggle && siteNav) {
@@ -398,7 +470,12 @@
     });
   }
 
-  // ------------------------- Daten laden -------------------------
+  // ------------------------- Initialisierung -------------------------
+  
+  // Sprach-Button initialisieren
+  setupLanguageButton();
+
+  // Daten laden
   fetch("data/practices.json", { cache: "no-cache" })
     .then((res) => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -414,7 +491,8 @@
       hintFilterScroll();
     })
     .catch((err) => {
-      countEl.textContent = "Daten konnten nicht geladen werden.";
+      // HIER WIRD ÜBERSETZT:
+      countEl.textContent = t("loadError");
       console.error("Laden fehlgeschlagen:", err);
     });
 })();
